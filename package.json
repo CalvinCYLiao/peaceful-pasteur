@@ -1,0 +1,12 @@
+{
+  "name": "conference-agenda-planner",
+  "version": "1.0.0",
+  "description": "Interactive Web Agenda Planner for International Conference Sept 21-24",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

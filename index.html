@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AIEH 2026 conference agenda. Featuring keynotes by Prof. Davinia HERNÁNDEZ-LEO, Prof. KINSHUK, and Prof. Chee-Kit LOOI, along with panels, paper sessions, and poster presentations.">
+  <title>AIEH 2026 Conference Agenda</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Header -->
+    <header>
+      <div class="badge-venue">
+        <svg class="search-icon" style="position:static; transform:none; fill:currentColor; margin-right:4px;" viewBox="0 0 24 24" width="16" height="16">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+        </svg>
+        GIS NTU Convention Center, Taipei & Hybrid
+      </div>
+      <h1 style="font-size: 2.5rem; letter-spacing: -0.01em; margin-bottom: 0.5rem;">AIEH 2026 Conference Agenda</h1>
+      <p class="lead-text" style="font-size: 1.05rem;">The 1st International Conference on AI, Future Educational Scenarios and Transformations, and Global Harwell</p>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; font-weight: 500;">September 21 - September 24, 2026 | Proposal 1 (議程方案一)</p>
+    </header>
+
+    <!-- Dashboard Metrics -->
+    <section class="dashboard-grid" aria-label="Conference statistics">
+      <div class="metric-card clickable-metric" data-filter="Keynote" role="button" tabindex="0" style="--card-color: var(--primary);">
+        <div class="metric-val">3</div>
+        <div class="metric-label">Keynotes</div>
+      </div>
+      <div class="metric-card clickable-metric" data-filter="Panel" role="button" tabindex="0" style="--card-color: var(--secondary);">
+        <div class="metric-val">5</div>
+        <div class="metric-label">Panels</div>
+      </div>
+      <div class="metric-card clickable-metric" data-filter="Paper" role="button" tabindex="0" style="--card-color: var(--info);">
+        <div class="metric-val">23</div>
+        <div class="metric-label">Papers</div>
+      </div>
+      <div class="metric-card clickable-metric" data-filter="Poster" role="button" tabindex="0" style="--card-color: var(--accent);">
+        <div class="metric-val">7</div>
+        <div class="metric-label">Posters</div>
+      </div>
+    </section>
+
+    <!-- Agenda At-A-Glance Overview Table -->
+    <section class="overview-section" aria-label="Agenda At A Glance">
+      <div class="overview-card">
+        <h2 class="overview-title">Agenda At A Glance (議程一覽表) <span style="font-size:0.8rem; font-weight:normal; color:var(--text-muted); margin-left:10px; display:inline-block; vertical-align:middle;">(💡 Click any session to jump directly to details / 點擊任一議程可快速查看詳情)</span></h2>
+        <div class="table-responsive">
+          <table class="overview-table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>9/21 (Mon.)</th>
+                <th>9/22 (Tue.)</th>
+                <th>9/23 (Wed.)</th>
+                <th>9/24 (Thu.)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="time-slot">08:30 - 09:00</td>
+                <td class="empty-cell">-</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-registration">Registration</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-registration">Registration</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day4" data-target-id="day4-registration">Registration</td>
+              </tr>
+              <tr>
+                <td class="time-slot">09:00 - 10:00</td>
+                <td class="empty-cell">-</td>
+                <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote1"><strong>Keynote Speech 1</strong><br><small>Prof. Davinia HERNÁNDEZ-LEO</small></td>
+                <td class="event-session clickable-cell" data-target-day="pane-day3" data-target-id="day3-online"><strong>Online Session</strong><br><small>Virtual Presentations (TBA)</small></td>
+                <td class="event-keynote clickable-cell" data-target-day="pane-day4" data-target-id="day4-keynote3"><strong>Keynote Speech 3</strong><br><small>Prof. Chee-Kit LOOI</small></td>
+              </tr>
+              <tr>
+                <td class="time-slot">10:00 - 10:30</td>
+                <td class="empty-cell">-</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-break1">Tea Break</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-break1">Tea Break</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day4" data-target-id="day4-break1">Tea Break</td>
+              </tr>
+              <tr>
+                <td class="time-slot">10:30 - 12:00</td>
+                <td class="empty-cell">-</td>
+                <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote2"><strong>Keynote Speech 2</strong><br><small>Prof. KINSHUK (10:30-11:30)</small><br><span class="event-break">Lunch (11:30-13:00)</span></td>
+                <td class="event-panel clickable-cell" data-target-day="pane-day3" data-target-id="day3-panel4"><strong>Panel Session 4 (Grand Panel)</strong><br><small>Harmony (Moderator: Tak-Wai Chan)</small></td>
+                <td class="event-closing clickable-cell" data-target-day="pane-day4" data-target-id="day4-closing"><strong>Closing Ceremony</strong><br><small>Closing & Awards (10:30-11:30)</small></td>
+              </tr>
+              <tr>
+                <td class="time-slot">12:00 - 13:00</td>
+                <td class="empty-cell">-</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-lunch">Lunch</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-lunch">Lunch</td>
+                <td class="event-closing clickable-cell" data-target-day="pane-day4" data-target-id="day4-farewell">Farewell & Departure</td>
+              </tr>
+              <tr>
+                <td class="time-slot">13:00 - 14:30</td>
+                <td class="event-opening clickable-cell" data-target-day="pane-day1" data-target-id="day1-opening"><strong>Registration</strong> (13:00-13:30)<br><strong>Opening Ceremony</strong> (13:30-14:30)</td>
+                <td class="event-parallel clickable-cell" data-target-day="pane-day2" data-target-id="day2-parallel1"><strong>Parallel Sessions I</strong><br><small>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers)</small></td>
+                <td class="event-parallel clickable-cell" data-target-day="pane-day3" data-target-id="day3-parallel3"><strong>Parallel Sessions III</strong><br><small>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers)</small></td>
+                <td class="empty-cell">-</td>
+              </tr>
+              <tr>
+                <td class="time-slot">14:30 - 15:00</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day1" data-target-id="day1-break1">Tea Break</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-break2">Tea Break</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-break2">Tea Break</td>
+                <td class="empty-cell">-</td>
+              </tr>
+              <tr>
+                <td class="time-slot">15:00 - 16:30</td>
+                <td class="event-panel clickable-cell" data-target-day="pane-day1" data-target-id="day1-panel1"><strong>Panel Session 1</strong><br><small>Learner Well-being (Yu-Ju Lan)</small></td>
+                <td class="event-parallel clickable-cell" data-target-day="pane-day2" data-target-id="day2-parallel2"><strong>Parallel Sessions II</strong><br><small>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers)</small></td>
+                <td class="event-poster clickable-cell" data-target-day="pane-day3" data-target-id="day3-posters"><strong>Poster Session</strong><br><small>Socrates Hall & Foyer (7 Posters)</small></td>
+                <td class="empty-cell">-</td>
+              </tr>
+              <tr>
+                <td class="time-slot">16:30 - 18:00</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day1" data-target-id="day1-transition">Move to Reception Venue</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-transition">Move to Banquet Venue</td>
+                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-free">Free Evening</td>
+                <td class="empty-cell">-</td>
+              </tr>
+              <tr>
+                <td class="time-slot">18:00 - 21:00</td>
+                <td class="event-reception clickable-cell" data-target-day="pane-day1" data-target-id="day1-welcome"><strong>Welcome Reception</strong><br><small>18:00 - 21:00</small></td>
+                <td class="event-banquet clickable-cell" data-target-day="pane-day2" data-target-id="day2-banquet"><strong>Dinner Banquet</strong><br><small>18:00 - 21:00</small></td>
+                <td class="empty-cell">-</td>
+                <td class="empty-cell">-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sticky Navigation & Search -->
+    <div class="sticky-nav-container">
+      <nav aria-label="Conference Days">
+        <ul class="tabs-nav" role="tablist">
+          <li role="presentation"><button id="tab-day1" class="tab-btn active" role="tab" aria-selected="true" aria-controls="pane-day1">Day 1 (Sept 21)</button></li>
+          <li role="presentation"><button id="tab-day2" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day2">Day 2 (Sept 22)</button></li>
+          <li role="presentation"><button id="tab-day3" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day3">Day 3 (Sept 23)</button></li>
+          <li role="presentation"><button id="tab-day4" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day4">Day 4 (Sept 24)</button></li>
+          <li role="presentation"><button id="tab-posters" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-posters">Posters List</button></li>
+        </ul>
+      </nav>
+      
+      <div class="search-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+          <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        </svg>
+        <input type="text" id="search-bar" class="search-input" placeholder="Search papers, speakers, topics..." aria-label="Search agenda">
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main>
+      
+      <!-- Day 1 Pane -->
+      <div id="pane-day1" class="tab-pane active" role="tabpanel" aria-labelledby="tab-day1">
+        <div class="timeline">
+          
+          <div class="agenda-card" id="day1-registration">
+            <div class="time-column">
+              <span class="time-range">13:00 - 13:30</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Registration</span>
+              </div>
+              <h3 class="agenda-title">Registration</h3>
+              <p class="agenda-description">Pick up your conference badges, delegate bags, and printed guides. Welcome tea and coffee provided in the main hall.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day1-opening">
+            <div class="time-column">
+              <span class="time-range">13:30 - 14:30</span>
+              <span class="duration-badge">60 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge social">Opening</span>
+              </div>
+              <h3 class="agenda-title">Opening Ceremony</h3>
+              <p class="agenda-description">Welcoming addresses by the General Chair, Program Committee Chairs, and administrative representatives from National Central University (NCU), Taiwan.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day1-break1">
+            <div class="time-column">
+              <span class="time-range">14:30 - 15:00</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Tea Break</span>
+              </div>
+              <h3 class="agenda-title">Tea Break</h3>
+              <p class="agenda-description">Refreshments and pastries served in the main exhibition foyer.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day1-panel1">
+            <div class="time-column">
+              <span class="time-range">15:00 - 16:30</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge panel">Panel 1</span>
+              </div>
+              <h3 class="agenda-title">Panel 1: Learner Well-being (Socrates Hall)</h3>
+              <p class="agenda-description"><strong>Moderator:</strong> Yu-Ju Lan <br><strong>Panelists:</strong> TBA <br>Addressing emotional and cognitive health of students engaged in long-term hybrid/online settings with conversational and generative companion models. *(Session reserved for Professor Lan Yu-Ju)*</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day1-transition">
+            <div class="time-column">
+              <span class="time-range">16:30 - 18:00</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Transition</span>
+              </div>
+              <h3 class="agenda-title">Move to Reception Venue</h3>
+              <p class="agenda-description">Transition block to relocate to the Welcome Reception Venue (TBD) / Banquet Venue via MRT or shuttle buses.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day1-welcome" style="border-left: 4px solid var(--accent);">
+            <div class="time-column">
+              <span class="time-range">18:00 - 21:00</span>
+              <span class="duration-badge">3 hours</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge social" style="background: rgba(244,63,94,0.2); color:#fda4af;">Welcome Reception</span>
+              </div>
+              <h3 class="agenda-title" style="color: #fff;">Welcome Reception</h3>
+              <p class="agenda-description">Official welcome drinks and networking buffet reception for all delegates. Features traditional Taiwanese food, live cultural music, and introductory remarks from organizers.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Day 2 Pane -->
+      <div id="pane-day2" class="tab-pane" role="tabpanel" aria-labelledby="tab-day2">
+        <div class="timeline">
+
+          <div class="agenda-card" id="day2-registration">
+            <div class="time-column">
+              <span class="time-range">08:30 - 09:00</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Registration</span>
+              </div>
+              <h3 class="agenda-title">Registration & Morning Coffee</h3>
+              <p class="agenda-description">Check-in open for Day 2. AV checks in Socrates Hall.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day2-keynote1">
+            <div class="time-column">
+              <span class="time-range">09:00 - 10:00</span>
+              <span class="duration-badge">60 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge keynote">Keynote 1</span>
+              </div>
+              <h3 class="agenda-title">Keynote 1: Prof. Davinia HERNÁNDEZ-LEO (UPF, Spain)</h3>
+              <p class="agenda-description"><strong>Title:</strong> AI-Supported Collaborative Learning Design: From Orchestration to Transformation <br>An exploration of collaborative learning technologies, detailing design orchestration, community platforms, and learning analytics integration. *(Socrates Hall)*</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day2-break1">
+            <div class="time-column">
+              <span class="time-range">10:00 - 10:30</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Tea Break</span>
+              </div>
+              <h3 class="agenda-title">Tea Break</h3>
+              <p class="agenda-description">Mid-morning refreshments at the main foyer.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day2-keynote2">
+            <div class="time-column">
+              <span class="time-range">10:30 - 11:30</span>
+              <span class="duration-badge">60 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge keynote">Keynote 2</span>
+              </div>
+              <h3 class="agenda-title">Keynote 2: Prof. KINSHUK (UNT, USA)</h3>
+              <p class="agenda-description"><strong>Title:</strong> Adaptivity and Personalization in Informatics-Rich Learning Spaces <br>Exploring online, distance, and hybrid learning architectures tailored for individualized tutoring in an increasingly globalized environment. *(Socrates Hall)*</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day2-lunch">
+            <div class="time-column">
+              <span class="time-range">11:30 - 13:00</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Lunch</span>
+              </div>
+              <h3 class="agenda-title">Lunch</h3>
+              <p class="agenda-description">Provided buffet lunch at the venue dining hall.</p>
+            </div>
+          </div>
+
+          <!-- Parallel Session I -->
+          <div class="agenda-card" id="day2-parallel1">
+            <div class="time-column">
+              <span class="time-range">13:00 - 14:30</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="parallel-tracks-grid">
+                
+                <!-- Socrates Hall: Panel 2 -->
+                <div class="track-column">
+                  <div class="track-header">Socrates Hall <span class="room-badge">Main Track</span></div>
+                  <div class="badge-row"><span class="type-badge panel">Panel 2</span></div>
+                  <h4 class="track-title">Panel 2: Do we need a Global Educational Goal?</h4>
+                  <p class="track-desc"><strong>Moderator:</strong> Siu-Cheung Kong <br><strong>Panelists:</strong> Kinshuk, Ting-Chia HSU (許庭嘉), Ben Chang, Ivica Botički, Dean Olah <br>An open academic discussion debating the structural need and ethical boundaries of setting global educational benchmarks.</p>
+                </div>
+
+                <!-- Alexander Hall: Track A -->
+                <div class="track-column">
+                  <div class="track-header">Alexander Hall <span class="room-badge">Track A</span></div>
+                  <div class="badge-row"><span class="type-badge paper">Session I</span></div>
+                  <h4 class="track-title">Parallel Session I (Track A)</h4>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP1.1</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP1.2</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP1.3</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP1.4</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Nietzsche Hall: Track B -->
+                <div class="track-column">
+                  <div class="track-header">Nietzsche Hall <span class="room-badge">Track B</span></div>
+                  <div class="badge-row"><span class="type-badge paper">Session I</span></div>
+                  <h4 class="track-title">Parallel Session I (Track B)</h4>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP1.5</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP1.6</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP1.7</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP1.8</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day2-break2">
+            <div class="time-column">
+              <span class="time-range">14:30 - 15:00</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Tea Break</span>
+              </div>
+              <h3 class="agenda-title">Tea Break</h3>
+              <p class="agenda-description">Afternoon tea and networking in the exhibition area.</p>
+            </div>
+          </div>
+
+          <!-- Parallel Session II -->
+          <div class="agenda-card" id="day2-parallel2">
+            <div class="time-column">
+              <span class="time-range">15:00 - 16:30</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="parallel-tracks-grid">
+                
+                <!-- Socrates Hall: Panel 3 -->
+                <div class="track-column">
+                  <div class="track-header">Socrates Hall <span class="room-badge">Main Track</span></div>
+                  <div class="badge-row"><span class="type-badge panel">Panel 3</span></div>
+                  <h4 class="track-title">Panel 3: Wellbeing</h4>
+                  <p class="track-desc"><strong>Moderator:</strong> Ju-Ling Shih <br><strong>Panelists:</strong> Weiqin Chen, 朱蕙君, 林珊如, 于富雲 <br>An in-depth debate investigating pedagogical interventions, student mental health, and the metrics to define 'flourishing' in digital educational systems.</p>
+                </div>
+
+                <!-- Alexander Hall: Track A -->
+                <div class="track-column">
+                  <div class="track-header">Alexander Hall <span class="room-badge">Track A</span></div>
+                  <div class="badge-row"><span class="type-badge paper">Session II</span></div>
+                  <h4 class="track-title">Parallel Session II (Track A)</h4>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP2.1</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP2.2</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP2.3</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP2.4</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Nietzsche Hall: Track B -->
+                <div class="track-column">
+                  <div class="track-header">Nietzsche Hall <span class="room-badge">Track B</span></div>
+                  <div class="badge-row"><span class="type-badge paper">Session II</span></div>
+                  <h4 class="track-title">Parallel Session II (Track B)</h4>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Full Paper FP2.5</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Practice Paper PP2.6</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Practice Paper PP2.7</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day2-transition">
+            <div class="time-column">
+              <span class="time-range">16:30 - 18:00</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Transition</span>
+              </div>
+              <h3 class="agenda-title">Move to Banquet Venue</h3>
+              <p class="agenda-description">Relocate to the Banquet Venue via MRT or organized buses.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day2-banquet" style="border-left: 4px solid var(--primary);">
+            <div class="time-column">
+              <span class="time-range">18:00 - 21:00</span>
+              <span class="duration-badge">3 hours</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge social" style="background: rgba(99,102,241,0.2); color:#c7d2fe;">Dinner Banquet</span>
+              </div>
+              <h3 class="agenda-title" style="color: #fff;">Dinner Banquet</h3>
+              <p class="agenda-description">Official Gala Dinner Banquet for all participants at the banquet hall, celebrating research excellence and fostering new collaborations.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Day 3 Pane -->
+      <div id="pane-day3" class="tab-pane" role="tabpanel" aria-labelledby="tab-day3">
+        <div class="timeline">
+
+          <div class="agenda-card" id="day3-registration">
+            <div class="time-column">
+              <span class="time-range">08:30 - 09:00</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Registration</span>
+              </div>
+              <h3 class="agenda-title">Registration</h3>
+              <p class="agenda-description">Check-in for Day 3. Online stream setup.</p>
+            </div>
+          </div>
+
+          <!-- Online Session -->
+          <div class="agenda-card" id="day3-online">
+            <div class="time-column">
+              <span class="time-range">09:00 - 10:00</span>
+              <span class="duration-badge">60 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="parallel-tracks-grid" style="grid-template-columns: 1fr;">
+                <div class="track-column" style="background: rgba(6,182,212,0.05); border-color: rgba(6,182,212,0.2);">
+                  <div class="track-header">Alexander & Nietzsche Halls <span class="room-badge">Online Streamed Track</span></div>
+                  <div class="badge-row"><span class="type-badge paper" style="background: rgba(6,182,212,0.15); color: #67e8f9; border: 1px solid rgba(6,182,212,0.3);">Online Session</span></div>
+                  <h4 class="track-title">Virtual Research Presentations</h4>
+                  <p class="track-desc">Expected virtual presentations by online authors.</p>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Online Full Paper OP1.1</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day3-break1">
+            <div class="time-column">
+              <span class="time-range">10:00 - 10:30</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Tea Break</span>
+              </div>
+              <h3 class="agenda-title">Tea Break</h3>
+              <p class="agenda-description">Morning coffee break.</p>
+            </div>
+          </div>
+
+          <!-- Plenary Panel 4 -->
+          <div class="agenda-card" id="day3-panel4">
+            <div class="time-column">
+              <span class="time-range">10:30 - 12:00</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge panel" style="background: rgba(99,102,241,0.2); color: #c7d2fe; border-color: rgba(99,102,241,0.4);">Panel 4 (Grand Panel)</span>
+              </div>
+              <h3 class="agenda-title">Panel 4 (Grand Panel): Harmony (Socrates Hall)</h3>
+              <p class="agenda-description"><strong>Moderator:</strong> Tak-Wai Chan <br><strong>Panelists:</strong> Ying-Tien Wu, Hyo-Jeong So, Chee-Kit Looi, Davinia Hernández-Leo, Siu-Cheung Kong, 黃國禎 <br>A high-profile roundtable discussion with conference organizers and keynote speakers summarizing the core values of 'Harmony' in AI integration, global learning standards, and cooperative educational policy.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day3-lunch">
+            <div class="time-column">
+              <span class="time-range">12:00 - 13:00</span>
+              <span class="duration-badge">60 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Lunch</span>
+              </div>
+              <h3 class="agenda-title">Lunch</h3>
+              <p class="agenda-description">Lunch served at the dining hall.</p>
+            </div>
+          </div>
+
+          <!-- Parallel Session III -->
+          <div class="agenda-card" id="day3-parallel3">
+            <div class="time-column">
+              <span class="time-range">13:00 - 14:30</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="parallel-tracks-grid">
+                
+                <!-- Socrates Hall: Panel 5 -->
+                <div class="track-column">
+                  <div class="track-header">Socrates Hall <span class="room-badge">Main Track</span></div>
+                  <div class="badge-row"><span class="type-badge panel">Panel 5</span></div>
+                  <h4 class="track-title">Panel 5: How does AI contribute to Global Harwell?</h4>
+                  <p class="track-desc"><strong>Moderator:</strong> Ivica Botički <br><strong>Panelists:</strong> Yin Yang, Chang-Yen Liao, 劉晨鐘, 楊接期 <br>Discussing the direct contribution of adaptive algorithms, classroom tools, and software frameworks in realizing the 'Global Harwell' vision.</p>
+                </div>
+
+                <!-- Alexander Hall: Track A -->
+                <div class="track-column">
+                  <div class="track-header">Alexander Hall <span class="room-badge">Track A</span></div>
+                  <div class="badge-row"><span class="type-badge paper">Session III</span></div>
+                  <h4 class="track-title">Parallel Session III (Track A)</h4>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Short Paper SP3.1</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Short Paper SP3.2</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Short Paper SP3.3</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Short Paper SP3.4</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Nietzsche Hall: Track B -->
+                <div class="track-column">
+                  <div class="track-header">Nietzsche Hall <span class="room-badge">Track B</span></div>
+                  <div class="badge-row"><span class="type-badge paper">Session III</span></div>
+                  <h4 class="track-title">Parallel Session III (Track B)</h4>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Short Paper SP3.5</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Short Paper SP3.6</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                    <div class="paper-item">
+                      <div class="paper-num">Short Paper SP3.7</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day3-break2">
+            <div class="time-column">
+              <span class="time-range">14:30 - 15:00</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Tea Break</span>
+              </div>
+              <h3 class="agenda-title">Tea Break</h3>
+              <p class="agenda-description">Afternoon coffee break.</p>
+            </div>
+          </div>
+
+          <!-- Plenary Poster Session -->
+          <div class="agenda-card" id="day3-posters">
+            <div class="time-column">
+              <span class="time-range">15:00 - 16:30</span>
+              <span class="duration-badge">90 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge social" style="background: rgba(244,63,94,0.15); color: #fda4af;">Poster Session</span>
+              </div>
+              <h3 class="agenda-title">Poster Session (Socrates Hall & Foyer)</h3>
+              <p class="agenda-description">Plenary exhibition slot dedicated entirely to our **7 Poster Presentations**. Engage face-to-face with the authors and discuss experimental setups over tea. *(Titles listed in the Posters tab)*</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day3-free">
+            <div class="time-column">
+              <span class="time-range">16:30 ~</span>
+              <span class="duration-badge">Free Time</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Free Evening</span>
+              </div>
+              <h3 class="agenda-title">Free Evening</h3>
+              <p class="agenda-description">No official evening banquet scheduled. Enjoy a free night to explore restaurants and sites around Taipei.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Day 4 Pane -->
+      <div id="pane-day4" class="tab-pane" role="tabpanel" aria-labelledby="tab-day4">
+        <div class="timeline">
+
+          <div class="agenda-card" id="day4-registration">
+            <div class="time-column">
+              <span class="time-range">08:30 - 09:00</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Coffee</span>
+              </div>
+              <h3 class="agenda-title">Morning Coffee</h3>
+              <p class="agenda-description">Morning check-in and coffee.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day4-keynote3">
+            <div class="time-column">
+              <span class="time-range">09:00 - 10:00</span>
+              <span class="duration-badge">60 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge keynote">Keynote 3</span>
+              </div>
+              <h3 class="agenda-title">Keynote 3: Prof. Chee-Kit LOOI (EdUHK, Hong Kong)</h3>
+              <p class="agenda-description"><strong>Title:</strong> Translating Learning Sciences and AI to Educational Practice <br>A talk focused on computational thinking, mobile learning, and deploying learning sciences principles into actual school environments. *(Socrates Hall)*</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day4-break1">
+            <div class="time-column">
+              <span class="time-range">10:00 - 10:30</span>
+              <span class="duration-badge">30 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Tea Break</span>
+              </div>
+              <h3 class="agenda-title">Tea Break</h3>
+              <p class="agenda-description">Break for checkout and poster dismantling.</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day4-closing">
+            <div class="time-column">
+              <span class="time-range">10:30 - 11:30</span>
+              <span class="duration-badge">60 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge social">Closing</span>
+              </div>
+              <h3 class="agenda-title">Closing Ceremony & Awards</h3>
+              <p class="agenda-description">Presentation of Best Paper, Best Short Paper, and Best Poster Awards. Closing remarks and AIEH 2027 venue announcement. *(Socrates Hall)*</p>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day4-farewell">
+            <div class="time-column">
+              <span class="time-range">11:30 ~</span>
+              <span class="duration-badge">Departures</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Farewell</span>
+              </div>
+              <h3 class="agenda-title">Grab-and-Go Lunch & Departures</h3>
+              <p class="agenda-description">Pick up a box lunch on your way out. Shuttle buses leave for the airport starting at 12:00 PM.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Posters Pane -->
+      <div id="pane-posters" class="tab-pane" role="tabpanel" aria-labelledby="tab-posters">
+        <p class="lead-text" style="text-align:left; margin-bottom:2rem; max-width:none;">
+          These **7 posters** will be displayed in Socrates Hall & Foyer throughout the conference. Presenters will stand by their poster boards during the main **Poster Session on Day 3 (Sept 23, 15:00 - 16:30)** for Q&A and networking.
+        </p>
+        
+        <div class="posters-grid">
+          
+          <div class="poster-card">
+            <div class="poster-id">Poster P01</div>
+            <h3 class="poster-title">TBA</h3>
+            <div class="poster-author"></div>
+          </div>
+
+          <div class="poster-card">
+            <div class="poster-id">Poster P02</div>
+            <h3 class="poster-title">TBA</h3>
+            <div class="poster-author"></div>
+          </div>
+
+          <div class="poster-card">
+            <div class="poster-id">Poster P03</div>
+            <h3 class="poster-title">TBA</h3>
+            <div class="poster-author"></div>
+          </div>
+
+          <div class="poster-card">
+            <div class="poster-id">Poster P04</div>
+            <h3 class="poster-title">TBA</h3>
+            <div class="poster-author"></div>
+          </div>
+
+          <div class="poster-card">
+            <div class="poster-id">Poster P05</div>
+            <h3 class="poster-title">TBA</h3>
+            <div class="poster-author"></div>
+          </div>
+
+          <div class="poster-card">
+            <div class="poster-id">Poster P06</div>
+            <h3 class="poster-title">TBA</h3>
+            <div class="poster-author"></div>
+          </div>
+
+          <div class="poster-card">
+            <div class="poster-id">Poster P07</div>
+            <h3 class="poster-title">TBA</h3>
+            <div class="poster-author"></div>
+          </div>
+
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 AIEH Organizing Committee. All rights reserved.</p>
+      <p style="margin-top:0.5rem;"><button onclick="window.print()" class="tab-btn" style="padding:0.4rem 1rem; font-size:0.8rem; background:rgba(255,255,255,0.05);">Print / Save PDF</button></p>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
