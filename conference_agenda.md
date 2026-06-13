@@ -83,9 +83,26 @@ gantt
 | **11:30 - 13:00** | **Lunch** | | |
 | **13:00 - 14:30** | **Panel Session 2** <br>**Moderator:** Siu-Cheung Kong <br>**Topic:** *Do we need a Global Educational Goal?* <br>**Panelists:** Kinshuk, Ting-Chia HSU (許庭嘉), Ben Chang, Ivica Botički, Dean Olah | **Parallel Session I (Track A)** <br><ul><li>**Full Paper FP1.1:** TBA</li><li>**Full Paper FP1.2:** TBA</li><li>**Full Paper FP1.3:** TBA</li><li>**Full Paper FP1.4:** TBA</li></ul> | **Parallel Session I (Track B)** <br><ul><li>**Full Paper FP1.5:** TBA</li><li>**Full Paper FP1.6:** TBA</li><li>**Full Paper FP1.7:** TBA</li><li>**Full Paper FP1.8:** TBA</li></ul> |
 | **14:30 - 15:00** | **Tea Break** | | |
-| **15:00 - 16:30** | **Panel Session 3** <br>**Moderator:** Ju-Ling Shih <br>**Topic:** *Wellbeing* <br>**Panelists:** Weiqin Chen, 朱蕙君, 林珊如, 于富雲 | **Parallel Session II (Track A)** <br><ul><li>**Full Paper FP2.1:** TBA</li><li>**Full Paper FP2.2:** TBA</li><li>**Full Paper FP2.3:** TBA</li><li>**Full Paper FP2.4:** TBA</li></ul> | **Parallel Session II (Track B)** <br><ul><li>**Full Paper FP2.5:** TBA</li><li>**Practice Paper PP2.6:** TBA</li><li>**Practice Paper PP2.7:** TBA</li></ul> |
+| **15:00 - 16:30** | **Panel Session 3** <br>**Theme:** *Beyond Achievement: Wellbeing as an Educational Value* <br>**Moderator:** Prof. Ju-Ling Shih (施如齡) <br>**Panelists:** Prof. Weiqin Chen, 朱蕙君, 林珊如, 于富雲 <br>*(See below for detailed abstract & speakers)* | **Parallel Session II (Track A)** <br><ul><li>**Full Paper FP2.1:** TBA</li><li>**Full Paper FP2.2:** TBA</li><li>**Full Paper FP2.3:** TBA</li><li>**Full Paper FP2.4:** TBA</li></ul> | **Parallel Session II (Track B)** <br><ul><li>**Full Paper FP2.5:** TBA</li><li>**Practice Paper PP2.6:** TBA</li><li>**Practice Paper PP2.7:** TBA</li></ul> |
 | **16:30 - 18:00** | **Move to Banquet Venue (MRT)** | | |
 | **18:00 - 21:00** | **Dinner Banquet** | | |
+
+#### 📝 Panel Session 3 Detail: Beyond Achievement: Wellbeing as an Educational Value
+*   **Moderator:** Prof. Ju-Ling Shih (施如齡)
+*   **Panelists:**
+    *   **Prof. Weiqin Chen** (Professor, Department of Computer Science, OsloMet – Oslo Metropolitan University, Norway | Email: weiche@oslomet.no)
+    *   Prof. Hui-Chun Chu (朱蕙君)
+    *   Prof. Shan-Ju Lin (林珊如)
+    *   Prof. Fu-Yun Yu (于富雲)
+*   **Abstract:**
+    Across the world, educational systems are increasingly recognizing that the purpose of education extends beyond academic achievement and workforce preparation. As learners navigate a rapidly changing world shaped by artificial intelligence, social transformation, uncertainty, and growing mental health challenges, wellbeing has become a fundamental educational concern.
+    
+    The purpose of education is not only to cultivate capable and competitive individuals, but also to support every learner in developing physical and mental health, a sense of identity, meaningful social connections, and hope for the future. In an era shaped by rapid advances in artificial intelligence and constantly evolving learning environments, students face challenges that extend far beyond academic performance, including emotional regulation, digital wellbeing, interpersonal relationships, and the search for meaning and purpose. Wellbeing, therefore, should not be viewed merely as a counseling issue or an auxiliary concern; it should be recognized as a core value that informs curriculum design, teaching practices, school culture, and assessment systems.
+    
+    This panel invites us to consider wellbeing not simply as an outcome of education, but as a core educational value that should inform how we design learning environments, curricula, pedagogy, assessment, and student support systems. How can teaching practices cultivate a sense of purpose, belonging, agency, resilience, and flourishing? How can assessment move beyond performance measurement to support growth and self-understanding? What roles do schools, universities, communities, and emerging technologies play in promoting learner wellbeing?
+    
+    We welcome diverse perspectives, research findings, institutional experiences, and practical innovations that help us reimagine education through the lens of wellbeing.
+*   **Format:** Panelists are welcome to use presentation slides to introduce their perspectives, research, initiatives, or educational practices. Rather than providing comprehensive coverage of the topic, we encourage presentations that highlight key ideas, provocative questions, or promising approaches that stimulate dialogue during the discussion session.
 
 ---
 

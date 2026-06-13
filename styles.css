@@ -860,3 +860,49 @@ mark {
   z-index: 100;
   position: relative;
 }
+
+/* Collapsible panel details styling */
+.panel-details-toggle {
+  margin-top: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  transition: all var(--transition-fast);
+}
+.panel-details-toggle[open] {
+  border-color: var(--primary);
+  background: rgba(30, 58, 138, 0.02);
+}
+.panel-details-toggle summary {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  padding: 0.25rem 0.5rem;
+}
+.panel-details-content {
+  padding: 0.75rem 0.5rem;
+  color: var(--text-dark);
+  line-height: 1.5;
+  border-top: 1px solid var(--border-color);
+  margin-top: 0.5rem;
+}
+.panel-details-content p {
+  margin-bottom: 0.75rem;
+}
+.panel-details-content p:last-child {
+  margin-bottom: 0;
+}
+.panel-details-content h5 {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
