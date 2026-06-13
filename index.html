@@ -72,7 +72,7 @@
                 <td class="empty-cell">-</td>
                 <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote1"><strong>Keynote Speech 1</strong><br><small>Prof. Davinia HERNÁNDEZ-LEO</small></td>
                 <td class="event-keynote clickable-cell" data-target-day="pane-day3" data-target-id="day3-keynote3"><strong>Keynote Speech 3</strong><br><small>Prof. Chee-Kit LOOI</small></td>
-                <td class="event-session clickable-cell" data-target-day="pane-day4" data-target-id="day4-online"><strong>Online Session</strong><br><small>Virtual Presentations (TBA)</small></td>
+                <td class="event-parallel clickable-cell" data-target-day="pane-day4" data-target-id="day4-tour"><strong>School Visit</strong><br><small>Taoyuan IDC (09:00-12:00)</small></td>
               </tr>
               <tr>
                 <td class="time-slot">10:00 - 10:30</td>
@@ -86,7 +86,7 @@
                 <td class="empty-cell">-</td>
                 <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote2"><strong>Keynote Speech 2</strong><br><small>Prof. KINSHUK (10:30-11:30)</small><br><span class="event-break">Lunch (11:30-13:00)</span></td>
                 <td class="event-panel clickable-cell" data-target-day="pane-day3" data-target-id="day3-panel4"><strong>Panel Session 4 (Grand Panel)</strong><br><small>Harmony (Moderator: Tak-Wai Chan)</small></td>
-                <td class="event-parallel clickable-cell" data-target-day="pane-day4" data-target-id="day4-tour"><strong>Optional Tour / Visit</strong><br><small>Local Tour or IDC Visit (安排中)</small></td>
+                <td class="event-parallel clickable-cell" data-target-day="pane-day4" data-target-id="day4-tour"><strong>School Visit (Cont.)</strong><br><small>Taoyuan IDC (安排中)</small></td>
               </tr>
               <tr>
                 <td class="time-slot">12:00 - 13:00</td>
@@ -100,7 +100,7 @@
                 <td class="event-opening clickable-cell" data-target-day="pane-day1" data-target-id="day1-opening"><strong>Registration</strong> (13:00-13:30)<br><strong>Opening Ceremony</strong> (13:30-14:30)</td>
                 <td class="event-parallel clickable-cell" data-target-day="pane-day2" data-target-id="day2-parallel1"><strong>Parallel Sessions I</strong><br><small>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers)</small></td>
                 <td class="event-parallel clickable-cell" data-target-day="pane-day3" data-target-id="day3-parallel3"><strong>Parallel Sessions III</strong><br><small>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers)</small></td>
-                <td class="empty-cell">-</td>
+                <td class="event-session clickable-cell" data-target-day="pane-day4" data-target-id="day4-meeting"><strong>Internal Meeting</strong><br><small>Closed-door (13:30-15:30)</small></td>
               </tr>
               <tr>
                 <td class="time-slot">14:30 - 15:00</td>
@@ -113,8 +113,8 @@
                 <td class="time-slot">15:00 - 16:30</td>
                 <td class="event-panel clickable-cell" data-target-day="pane-day1" data-target-id="day1-panel1"><strong>Panel Session 1</strong><br><small>Learner Well-being (Yu-Ju Lan)</small></td>
                 <td class="event-parallel clickable-cell" data-target-day="pane-day2" data-target-id="day2-parallel2"><strong>Parallel Sessions II</strong><br><small>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers)</small></td>
-                <td class="event-poster clickable-cell" data-target-day="pane-day3" data-target-id="day3-posters"><strong>Poster Session</strong><br><small>Socrates Hall & Foyer (7 Posters)</small></td>
-                <td class="empty-cell">-</td>
+                <td class="event-parallel clickable-cell" data-target-day="pane-day3" data-target-id="day3-posters"><strong>Poster & Online Session</strong><br><small>Socrates: Posters<br>Alexander: Online Session</small></td>
+                <td class="event-session clickable-cell" data-target-day="pane-day4" data-target-id="day4-meeting"><strong>Internal Meeting (Cont.)</strong><br><small>Closed-door</small></td>
               </tr>
               <tr>
                 <td class="time-slot">16:30 - 18:00</td>
@@ -143,7 +143,7 @@
           <li role="presentation"><button id="tab-day1" class="tab-btn active" role="tab" aria-selected="true" aria-controls="pane-day1">Day 1 (Sept 21)</button></li>
           <li role="presentation"><button id="tab-day2" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day2">Day 2 (Sept 22)</button></li>
           <li role="presentation"><button id="tab-day3" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day3">Day 3 (Sept 23)</button></li>
-          <li role="presentation"><button id="tab-day4" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day4">Day 4 (Sept 24 - Virtual & Tour)</button></li>
+          <li role="presentation"><button id="tab-day4" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day4">Day 4 (Sept 24 - Visit & Meeting)</button></li>
           <li role="presentation"><button id="tab-posters" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-posters">Posters List</button></li>
         </ul>
       </nav>
@@ -708,22 +708,39 @@
                 <span class="type-badge break">Tea Break</span>
               </div>
               <h3 class="agenda-title">Tea Break</h3>
-              <p class="agenda-description">Afternoon coffee break.</p>
-            </div>
-          </div>
-
-          <!-- Plenary Poster Session -->
+          <!-- Plenary Poster & Online Session -->
           <div class="agenda-card" id="day3-posters">
             <div class="time-column">
               <span class="time-range">15:00 - 16:30</span>
               <span class="duration-badge">90 mins</span>
             </div>
             <div class="content-column">
-              <div class="badge-row">
-                <span class="type-badge social" style="background: rgba(244,63,94,0.15); color: #fda4af;">Poster Session</span>
+              <div class="parallel-tracks-grid two-columns">
+                
+                <!-- Socrates Hall & Foyer: Poster Session -->
+                <div class="track-column">
+                  <div class="track-header">Socrates Hall & Foyer <span class="room-badge">Physical</span></div>
+                  <div class="badge-row"><span class="type-badge social" style="background: rgba(244,63,94,0.15); color: #fda4af; border: 1px solid rgba(244,63,94,0.3);">Poster Session</span></div>
+                  <h4 class="track-title">Poster Presentations</h4>
+                  <p class="track-desc" style="margin-bottom:0.5rem;">Dedicated exhibition slot for our **7 Poster Presentations**. Engage face-to-face with the authors and discuss experimental setups. *(Full list in the Posters tab)*</p>
+                </div>
+
+                <!-- Alexander Hall: Online Session -->
+                <div class="track-column" style="background: rgba(6,182,212,0.02); border-color: rgba(6,182,212,0.15);">
+                  <div class="track-header">Alexander Hall / Online Stream <span class="room-badge">Virtual</span></div>
+                  <div class="badge-row"><span class="type-badge paper" style="background: rgba(6,182,212,0.15); color: #0891b2; border: 1px solid rgba(6,182,212,0.3);">Online Session</span></div>
+                  <h4 class="track-title">Online Session (Virtual Presentations)</h4>
+                  <p class="track-desc" style="margin-bottom:0.5rem;">Expected virtual presentations by online/remote authors. Video presentations and virtual Q&A stream.</p>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Online Full Paper OP1.1</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
-              <h3 class="agenda-title">Poster Session (Socrates Hall & Foyer)</h3>
-              <p class="agenda-description">Plenary exhibition slot dedicated entirely to our **7 Poster Presentations**. Engage face-to-face with the authors and discuss experimental setups over tea. *(Titles listed in the Posters tab)*</p>
             </div>
           </div>
 
@@ -762,64 +779,52 @@
       <!-- Day 4 Pane -->
       <div id="pane-day4" class="tab-pane" role="tabpanel" aria-labelledby="tab-day4">
         <p class="lead-text" style="text-align:left; margin-bottom:2rem; max-width:none;">
-          Day 4 features virtual sessions online alongside optional physical activities for in-person attendees.
-          (第四天提供線上虛擬發表，並為在台實體參會者安排自選參訪活動。)
+          Day 4 features a school visit to the experimental education institution alongside an internal closed-door meeting.
+          (第四天安排學校參訪行程及主辦單位內部閉門會議。)
         </p>
         <div class="timeline">
 
-          <!-- Online Session -->
-          <div class="agenda-card" id="day4-online">
-            <div class="time-column">
-              <span class="time-range">09:00 - 10:00</span>
-              <span class="duration-badge">60 mins</span>
-            </div>
-            <div class="content-column">
-              <div class="parallel-tracks-grid" style="grid-template-columns: 1fr;">
-                <div class="track-column" style="background: rgba(6,182,212,0.05); border-color: rgba(6,182,212,0.2);">
-                  <div class="track-header">Alexander & Nietzsche Halls <span class="room-badge">Online Streamed Track</span></div>
-                  <div class="badge-row"><span class="type-badge paper" style="background: rgba(6,182,212,0.15); color: #67e8f9; border: 1px solid rgba(6,182,212,0.3);">Online Session</span></div>
-                  <h4 class="track-title">Virtual Research Presentations</h4>
-                  <p class="track-desc">Expected virtual presentations by online/remote authors.</p>
-                  <div class="papers-container">
-                    <div class="paper-item">
-                      <div class="paper-num">Online Full Paper OP1.1</div>
-                      <div class="paper-title">TBA</div>
-                      <div class="paper-author"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Optional Tour / Visit -->
+          <!-- School Visit -->
           <div class="agenda-card" id="day4-tour">
             <div class="time-column">
-              <span class="time-range">09:00 - 15:00</span>
-              <span class="duration-badge">6 hours</span>
+              <span class="time-range">09:00 - 12:00</span>
+              <span class="duration-badge">3 hours</span>
             </div>
             <div class="content-column">
               <div class="badge-row">
-                <span class="type-badge social" style="background: rgba(13, 148, 136, 0.15); color: #2dd4bf; border: 1px solid rgba(13, 148, 136, 0.3);">Social Activity</span>
+                <span class="type-badge social" style="background: rgba(13, 148, 136, 0.15); color: #2dd4bf; border: 1px solid rgba(13, 148, 136, 0.3);">School Visit</span>
               </div>
-              <h3 class="agenda-title">Optional Social Program & School Visit</h3>
+              <h3 class="agenda-title">School Visit to Taoyuan IDC</h3>
               <p class="agenda-description">
-                For in-person attendees staying in Taiwan, we offer two optional tracks. Pre-registration is required.
+                An academic visit to the <em>Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution</em> (桃園市趣創者(IDC)國際實驗教育機構參訪，全名為興趣驅動創造者). Pre-registration is required.
                 <br><br>
-                <strong>Option A: Local Tour</strong><br>
-                A guided cultural and historic tour exploring local landmarks in Taipei and Taoyuan.
-                <br><br>
-                <strong>Option B: School Visit to Taoyuan IDC</strong><br>
-                An academic visit to the <em>Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution</em> (桃園市趣創者(IDC)國際實驗教育機構參訪，全名為興趣驅動創造者).
-                <br>
                 <span style="color: var(--accent); font-weight:600;">*(Under Arrangement / 安排中)*</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Internal Closed-door Meeting -->
+          <div class="agenda-card" id="day4-meeting">
+            <div class="time-column">
+              <span class="time-range">13:30 - 15:30</span>
+              <span class="duration-badge">120 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge panel" style="background: rgba(30,58,138,0.1); color: var(--primary); border: 1px solid rgba(30,58,138,0.25);">Closed Meeting</span>
+              </div>
+              <h3 class="agenda-title">Internal Closed-door Meeting</h3>
+              <p class="agenda-description">
+                Project committee review, steering assembly, and future planning meeting for organizers and committee members.
+                <br><br>
+                <strong>(主辦與大會委員內部閉門會議)</strong>
               </p>
             </div>
           </div>
 
           <div class="agenda-card" id="day4-farewell">
             <div class="time-column">
-              <span class="time-range">15:00 ~</span>
+              <span class="time-range">15:30 ~</span>
               <span class="duration-badge">End</span>
             </div>
             <div class="content-column">

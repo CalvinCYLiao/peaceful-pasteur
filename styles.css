@@ -489,6 +489,9 @@ h1 {
   .parallel-tracks-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  .parallel-tracks-grid.two-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .track-column {
