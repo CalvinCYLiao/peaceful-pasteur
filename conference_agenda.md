@@ -9,16 +9,16 @@
 
 ## 📋 Agenda At-A-Glance (議程一覽表)
 
-| Time | Day 1: Sept 21 (Mon.) | Day 2: Sept 22 (Tue.) | Day 3: Sept 23 (Wed.) | Day 4: Sept 24 (Thu.) [Visit & Meeting] |
+| Time | Day 1: Sept 21 (Mon.) | Day 2: Sept 22 (Tue.) | Day 3: Sept 23 (Wed.) | Day 4: Sept 24 (Thu.) [Meeting & Visit] |
 | :--- | :--- | :--- | :--- | :--- |
 | **08:30 - 09:00** | — | Registration | Registration | — |
-| **09:00 - 10:00** | — | **Keynote Speech 1**<br>Prof. Davinia HERNÁNDEZ-LEO | **Keynote Speech 3**<br>Prof. Chee-Kit LOOI | **School Visit**<br>Taoyuan IDC (09:00-12:00) |
+| **09:00 - 10:00** | — | **Keynote Speech 1**<br>Prof. Davinia HERNÁNDEZ-LEO | **Keynote Speech 3**<br>Prof. Chee-Kit LOOI | **Internal Meeting**<br>Closed-door (09:00-11:00) |
 | **10:00 - 10:30** | — | Tea Break | Tea Break | — |
-| **10:30 - 12:00** | — | **Keynote Speech 2**<br>Prof. KINSHUK (10:30-11:30)<br>_Lunch (11:30-13:00)_ | **Panel Session 4 (Grand Panel)**<br>Harmony (Moderator: Tak-Wai Chan) | **School Visit (Cont.)**<br>Taoyuan IDC (安排中) |
+| **10:30 - 12:00** | — | **Keynote Speech 2**<br>Prof. KINSHUK (10:30-11:30)<br>_Lunch (11:30-13:00)_ | **Panel Session 4 (Grand Panel)**<br>Harmony (Moderator: Tak-Wai Chan) | **Internal Meeting (Cont.)**<br>Closed-door |
 | **12:00 - 13:00** | — | Lunch | Lunch | — |
-| **13:00 - 14:30** | **Registration** (13:00-13:30)<br>**Opening Ceremony** (13:30-14:30) | **Parallel Sessions I**<br>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers) | **Parallel Sessions III**<br>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | **Internal Meeting**<br>Closed-door (13:30-15:30) |
+| **13:00 - 14:30** | **Registration** (13:00-13:30)<br>**Opening Ceremony** (13:30-14:30) | **Parallel Sessions I**<br>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers) | **Parallel Sessions III**<br>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | **School Visit**<br>Taoyuan IDC (13:00-16:00) |
 | **14:30 - 15:00** | Tea Break | Tea Break | Tea Break | — |
-| **15:00 - 16:30** | **Panel Session 1**<br>Learner Well-being (Yu-Ju Lan) | **Parallel Sessions II**<br>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | **Poster & Online Session**<br>Socrates: Posters (7)<br>Alexander: Online Session | **Internal Meeting (Cont.)**<br>Closed-door |
+| **15:00 - 16:30** | **Panel Session 1**<br>Learner Well-being (Yu-Ju Lan) | **Parallel Sessions II**<br>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | **Poster & Online Session**<br>Socrates: Posters (7)<br>Alexander: Online Session | **School Visit (Cont.)**<br>Taoyuan IDC (安排中) |
 | **16:30 - 18:00** | Move to Reception Venue | Move to Banquet Venue | **Closing Ceremony** (16:30-17:30)<br>Closing & Awards | — |
 | **18:00 - 21:00** | **Welcome Reception** (18:00-21:00) | **Dinner Banquet** (18:00-21:00) | — | — |
 
@@ -50,9 +50,9 @@ gantt
     Poster & Online Session   :d3_4, 2026-09-23 15:00, 2026-09-23 16:30
     Closing Ceremony & Awards :active, d3_5, 2026-09-23 16:30, 2026-09-23 17:30
 
-    section Day 4 (Sept 24) [Visit & Meeting]
-    School Visit to IDC       :d4_1, 2026-09-24 09:00, 2026-09-24 12:00
-    Internal Closed Meeting   :d4_2, 2026-09-24 13:30, 2026-09-24 15:30
+    section Day 4 (Sept 24) [Meeting & Visit]
+    Internal Closed Meeting   :d4_1, 2026-09-24 09:00, 2026-09-24 11:00
+    School Visit to IDC       :d4_2, 2026-09-24 13:00, 2026-09-24 16:00
 ```
 
 ---
@@ -123,13 +123,13 @@ gantt
 
 ---
 
-### Day 4: Thursday, September 24 (School Visit & Internal Meeting)
+### Day 4: Thursday, September 24 (Internal Meeting & School Visit)
 
 | Time | Activity / Room | Details |
 | :--- | :--- | :--- |
-| **09:00 - 12:00** | **School Visit to Taoyuan IDC** | Academic visit to the *Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution* (桃園市趣創者(IDC)國際實驗教育機構參訪，全名為興趣驅動創造者). Pre-registration required.<br>*(Under Arrangement / 安排中)* |
-| **13:30 - 15:30** | **Internal Closed-door Meeting** | Steering assembly, project committee review, and future planning meeting for organizers and committee members.<br>*(主辦與大會委員內部閉門會議)* |
-| **15:30 ~** | **Farewell & Departures** | Official conclusion of the conference program. Thank you for attending AIEH 2026! |
+| **09:00 - 11:00** | **Internal Closed-door Meeting** | Steering assembly, project committee review, and future planning meeting for organizers and committee members.<br>*(主辦與大會委員內部閉門會議)* |
+| **13:00 - 16:00** | **School Visit to Taoyuan IDC** | Academic visit to the *Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution* (桃園市趣創者(IDC)國際實驗教育機構參訪，全名為興趣驅動創造者). Pre-registration required.<br>*(Under Arrangement / 安排中)* |
+| **16:00 ~** | **Farewell & Departures** | Official conclusion of the conference program. Thank you for attending AIEH 2026! |
 
 ---
 

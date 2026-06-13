@@ -9,155 +9,184 @@
 </head>
 <body>
 
-  <div class="container">
+  <div class="app-layout">
     
-    <!-- Header -->
-    <header>
-      <div class="badge-venue">
-        <svg class="search-icon" style="position:static; transform:none; fill:currentColor; margin-right:4px;" viewBox="0 0 24 24" width="16" height="16">
-          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-        </svg>
-        GIS NTU Convention Center, Taipei & Hybrid
+    <!-- Sidebar Controls -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="badge-venue">
+          <svg class="search-icon" style="position:static; transform:none; fill:currentColor; margin-right:4px;" viewBox="0 0 24 24" width="14" height="14">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          GIS NTU, Taipei & Hybrid
+        </div>
+        <h2>AIEH 2026</h2>
+        <p class="sidebar-date">Sept 21 - Sept 24, 2026</p>
       </div>
-      <h1 style="font-size: 2.5rem; letter-spacing: -0.01em; margin-bottom: 0.5rem;">AIEH 2026 Conference Agenda</h1>
-      <p class="lead-text" style="font-size: 1.05rem;">The 1st International Conference on AI, Future Educational Scenarios and Transformations, and Global Harwell</p>
-      <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; font-weight: 500;">September 21 - September 24, 2026 | Proposal 1 (議程方案一)</p>
-    </header>
 
-    <!-- Dashboard Metrics -->
-    <section class="dashboard-grid" aria-label="Conference statistics">
-      <div class="metric-card clickable-metric" data-filter="Keynote" role="button" tabindex="0" style="--card-color: var(--primary);">
-        <div class="metric-val">3</div>
-        <div class="metric-label">Keynotes</div>
+      <!-- Navigation tabs -->
+      <div class="sidebar-section">
+        <h3 class="section-title">Select Day</h3>
+        <nav aria-label="Conference Days">
+          <ul class="tabs-nav" role="tablist">
+            <li role="presentation"><button id="tab-day1" class="tab-btn active" role="tab" aria-selected="true" aria-controls="pane-day1">Day 1 (Sept 21)</button></li>
+            <li role="presentation"><button id="tab-day2" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day2">Day 2 (Sept 22)</button></li>
+            <li role="presentation"><button id="tab-day3" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day3">Day 3 (Sept 23)</button></li>
+            <li role="presentation"><button id="tab-day4" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day4">Day 4 (Sept 24 - Meeting & Visit)</button></li>
+            <li role="presentation"><button id="tab-posters" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-posters">Posters List</button></li>
+          </ul>
+        </nav>
       </div>
-      <div class="metric-card clickable-metric" data-filter="Panel" role="button" tabindex="0" style="--card-color: var(--secondary);">
-        <div class="metric-val">5</div>
-        <div class="metric-label">Panels</div>
-      </div>
-      <div class="metric-card clickable-metric" data-filter="Paper" role="button" tabindex="0" style="--card-color: var(--info);">
-        <div class="metric-val">23</div>
-        <div class="metric-label">Papers</div>
-      </div>
-      <div class="metric-card clickable-metric" data-filter="Poster" role="button" tabindex="0" style="--card-color: var(--accent);">
-        <div class="metric-val">7</div>
-        <div class="metric-label">Posters</div>
-      </div>
-    </section>
 
-    <!-- Agenda At-A-Glance Overview Table -->
-    <section class="overview-section" aria-label="Agenda At A Glance">
-      <div class="overview-card">
-        <h2 class="overview-title">Agenda At A Glance (議程一覽表) <span style="font-size:0.8rem; font-weight:normal; color:var(--text-muted); margin-left:10px; display:inline-block; vertical-align:middle;">(💡 Click any session to jump directly to details / 點擊任一議程可快速查看詳情)</span></h2>
-        <div class="table-responsive">
-          <table class="overview-table">
-            <thead>
-              <tr>
-                <th>Time</th>
-                <th>9/21 (Mon.)</th>
-                <th>9/22 (Tue.)</th>
-                <th>9/23 (Wed.)</th>
-                <th>9/24 (Thu.)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="time-slot">08:30 - 09:00</td>
-                <td class="empty-cell">-</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-registration">Registration</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-registration">Registration</td>
-                <td class="empty-cell">-</td>
-              </tr>
-              <tr>
-                <td class="time-slot">09:00 - 10:00</td>
-                <td class="empty-cell">-</td>
-                <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote1"><strong>Keynote Speech 1</strong><br><small>Prof. Davinia HERNÁNDEZ-LEO</small></td>
-                <td class="event-keynote clickable-cell" data-target-day="pane-day3" data-target-id="day3-keynote3"><strong>Keynote Speech 3</strong><br><small>Prof. Chee-Kit LOOI</small></td>
-                <td class="event-parallel clickable-cell" data-target-day="pane-day4" data-target-id="day4-tour"><strong>School Visit</strong><br><small>Taoyuan IDC (09:00-12:00)</small></td>
-              </tr>
-              <tr>
-                <td class="time-slot">10:00 - 10:30</td>
-                <td class="empty-cell">-</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-break1">Tea Break</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-break1">Tea Break</td>
-                <td class="empty-cell">-</td>
-              </tr>
-              <tr>
-                <td class="time-slot">10:30 - 12:00</td>
-                <td class="empty-cell">-</td>
-                <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote2"><strong>Keynote Speech 2</strong><br><small>Prof. KINSHUK (10:30-11:30)</small><br><span class="event-break">Lunch (11:30-13:00)</span></td>
-                <td class="event-panel clickable-cell" data-target-day="pane-day3" data-target-id="day3-panel4"><strong>Panel Session 4 (Grand Panel)</strong><br><small>Harmony (Moderator: Tak-Wai Chan)</small></td>
-                <td class="event-parallel clickable-cell" data-target-day="pane-day4" data-target-id="day4-tour"><strong>School Visit (Cont.)</strong><br><small>Taoyuan IDC (安排中)</small></td>
-              </tr>
-              <tr>
-                <td class="time-slot">12:00 - 13:00</td>
-                <td class="empty-cell">-</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-lunch">Lunch</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-lunch">Lunch</td>
-                <td class="empty-cell">-</td>
-              </tr>
-              <tr>
-                <td class="time-slot">13:00 - 14:30</td>
-                <td class="event-opening clickable-cell" data-target-day="pane-day1" data-target-id="day1-opening"><strong>Registration</strong> (13:00-13:30)<br><strong>Opening Ceremony</strong> (13:30-14:30)</td>
-                <td class="event-parallel clickable-cell" data-target-day="pane-day2" data-target-id="day2-parallel1"><strong>Parallel Sessions I</strong><br><small>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers)</small></td>
-                <td class="event-parallel clickable-cell" data-target-day="pane-day3" data-target-id="day3-parallel3"><strong>Parallel Sessions III</strong><br><small>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers)</small></td>
-                <td class="event-session clickable-cell" data-target-day="pane-day4" data-target-id="day4-meeting"><strong>Internal Meeting</strong><br><small>Closed-door (13:30-15:30)</small></td>
-              </tr>
-              <tr>
-                <td class="time-slot">14:30 - 15:00</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day1" data-target-id="day1-break1">Tea Break</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-break2">Tea Break</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-break2">Tea Break</td>
-                <td class="empty-cell">-</td>
-              </tr>
-              <tr>
-                <td class="time-slot">15:00 - 16:30</td>
-                <td class="event-panel clickable-cell" data-target-day="pane-day1" data-target-id="day1-panel1"><strong>Panel Session 1</strong><br><small>Learner Well-being (Yu-Ju Lan)</small></td>
-                <td class="event-parallel clickable-cell" data-target-day="pane-day2" data-target-id="day2-parallel2"><strong>Parallel Sessions II</strong><br><small>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers)</small></td>
-                <td class="event-parallel clickable-cell" data-target-day="pane-day3" data-target-id="day3-posters"><strong>Poster & Online Session</strong><br><small>Socrates: Posters<br>Alexander: Online Session</small></td>
-                <td class="event-session clickable-cell" data-target-day="pane-day4" data-target-id="day4-meeting"><strong>Internal Meeting (Cont.)</strong><br><small>Closed-door</small></td>
-              </tr>
-              <tr>
-                <td class="time-slot">16:30 - 18:00</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day1" data-target-id="day1-transition">Move to Reception Venue</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-transition">Move to Banquet Venue</td>
-                <td class="event-closing clickable-cell" data-target-day="pane-day3" data-target-id="day3-closing"><strong>Closing Ceremony</strong><br><small>Closing & Awards (16:30-17:30)</small></td>
-                <td class="empty-cell">-</td>
-              </tr>
-              <tr>
-                <td class="time-slot">18:00 - 21:00</td>
-                <td class="event-reception clickable-cell" data-target-day="pane-day1" data-target-id="day1-welcome"><strong>Welcome Reception</strong><br><small>18:00 - 21:00</small></td>
-                <td class="event-banquet clickable-cell" data-target-day="pane-day2" data-target-id="day2-banquet"><strong>Dinner Banquet</strong><br><small>18:00 - 21:00</small></td>
-                <td class="empty-cell">-</td>
-                <td class="empty-cell">-</td>
-              </tr>
-            </tbody>
-          </table>
+      <!-- Search Wrapper -->
+      <div class="sidebar-section">
+        <h3 class="section-title">Search Agenda</h3>
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+          </svg>
+          <input type="text" id="search-bar" class="search-input" placeholder="Search papers, speakers, topics..." aria-label="Search agenda">
         </div>
       </div>
-    </section>
 
-    <!-- Sticky Navigation & Search -->
-    <div class="sticky-nav-container">
-      <nav aria-label="Conference Days">
-        <ul class="tabs-nav" role="tablist">
-          <li role="presentation"><button id="tab-day1" class="tab-btn active" role="tab" aria-selected="true" aria-controls="pane-day1">Day 1 (Sept 21)</button></li>
-          <li role="presentation"><button id="tab-day2" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day2">Day 2 (Sept 22)</button></li>
-          <li role="presentation"><button id="tab-day3" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day3">Day 3 (Sept 23)</button></li>
-          <li role="presentation"><button id="tab-day4" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day4">Day 4 (Sept 24 - Visit & Meeting)</button></li>
-          <li role="presentation"><button id="tab-posters" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-posters">Posters List</button></li>
-        </ul>
-      </nav>
-      
-      <div class="search-wrapper">
-        <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-          <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-        </svg>
-        <input type="text" id="search-bar" class="search-input" placeholder="Search papers, speakers, topics..." aria-label="Search agenda">
+      <!-- Dashboard Grid Filters -->
+      <div class="sidebar-section">
+        <h3 class="section-title">Quick Filters</h3>
+        <div class="dashboard-grid">
+          <div class="metric-card clickable-metric" data-filter="Keynote" role="button" tabindex="0" style="--card-color: var(--primary);">
+            <div class="metric-val">3</div>
+            <div class="metric-label">Keynotes</div>
+          </div>
+          <div class="metric-card clickable-metric" data-filter="Panel" role="button" tabindex="0" style="--card-color: var(--secondary);">
+            <div class="metric-val">5</div>
+            <div class="metric-label">Panels</div>
+          </div>
+          <div class="metric-card clickable-metric" data-filter="Paper" role="button" tabindex="0" style="--card-color: var(--info);">
+            <div class="metric-val">23</div>
+            <div class="metric-label">Papers</div>
+          </div>
+          <div class="metric-card clickable-metric" data-filter="Poster" role="button" tabindex="0" style="--card-color: var(--accent);">
+            <div class="metric-val">7</div>
+            <div class="metric-label">Posters</div>
+          </div>
+        </div>
       </div>
-    </div>
+
+      <!-- Print Button -->
+      <div class="sidebar-footer">
+        <button class="print-btn" onclick="window.print();">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/>
+          </svg>
+          Print / Save PDF
+        </button>
+      </div>
+    </aside>
 
     <!-- Main Content Area -->
-    <main>
+    <div class="main-content">
+      
+      <!-- Content Header Banner -->
+      <header class="content-header">
+        <h1>AIEH 2026 Conference Agenda</h1>
+        <p class="lead-text">The 1st International Conference on AI, Future Educational Scenarios and Transformations, and Global Harwell</p>
+        <p class="sub-lead-text">September 21 - September 24, 2026 | Proposal 1 (議程方案一)</p>
+      </header>
+
+      <!-- Agenda At-A-Glance Overview Table -->
+      <section class="overview-section" aria-label="Agenda At A Glance">
+        <div class="overview-card">
+          <h2 class="overview-title">Agenda At A Glance (議程一覽表) <span style="font-size:0.8rem; font-weight:normal; color:var(--text-muted); margin-left:10px; display:inline-block; vertical-align:middle;">(💡 Click any session to jump directly to details / 點擊任一議程可快速查看詳情)</span></h2>
+          <div class="table-responsive">
+            <table class="overview-table">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>9/21 (Mon.)</th>
+                  <th>9/22 (Tue.)</th>
+                  <th>9/23 (Wed.)</th>
+                  <th>9/24 (Thu.)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="time-slot">08:30 - 09:00</td>
+                  <td class="empty-cell">-</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-registration">Registration</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-registration">Registration</td>
+                  <td class="empty-cell">-</td>
+                </tr>
+                <tr>
+                  <td class="time-slot">09:00 - 10:00</td>
+                  <td class="empty-cell">-</td>
+                  <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote1"><strong>Keynote Speech 1</strong><br><small>Prof. Davinia HERNÁNDEZ-LEO</small></td>
+                  <td class="event-keynote clickable-cell" data-target-day="pane-day3" data-target-id="day3-keynote3"><strong>Keynote Speech 3</strong><br><small>Prof. Chee-Kit LOOI</small></td>
+                  <td class="event-session clickable-cell" data-target-day="pane-day4" data-target-id="day4-meeting"><strong>Internal Meeting</strong><br><small>Closed-door (09:00-11:00)</small></td>
+                </tr>
+                <tr>
+                  <td class="time-slot">10:00 - 10:30</td>
+                  <td class="empty-cell">-</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-break1">Tea Break</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-break1">Tea Break</td>
+                  <td class="empty-cell">-</td>
+                </tr>
+                <tr>
+                  <td class="time-slot">10:30 - 12:00</td>
+                  <td class="empty-cell">-</td>
+                  <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote2"><strong>Keynote Speech 2</strong><br><small>Prof. KINSHUK (10:30-11:30)</small><br><span class="event-break">Lunch (11:30-13:00)</span></td>
+                  <td class="event-panel clickable-cell" data-target-day="pane-day3" data-target-id="day3-panel4"><strong>Panel Session 4 (Grand Panel)</strong><br><small>Harmony (Moderator: Tak-Wai Chan)</small></td>
+                  <td class="event-session clickable-cell" data-target-day="pane-day4" data-target-id="day4-meeting"><strong>Internal Meeting (Cont.)</strong><br><small>Closed-door</small></td>
+                </tr>
+                <tr>
+                  <td class="time-slot">12:00 - 13:00</td>
+                  <td class="empty-cell">-</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-lunch">Lunch</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-lunch">Lunch</td>
+                  <td class="empty-cell">-</td>
+                </tr>
+                <tr>
+                  <td class="time-slot">13:00 - 14:30</td>
+                  <td class="event-opening clickable-cell" data-target-day="pane-day1" data-target-id="day1-opening"><strong>Registration</strong> (13:00-13:30)<br><strong>Opening Ceremony</strong> (13:30-14:30)</td>
+                  <td class="event-parallel clickable-cell" data-target-day="pane-day2" data-target-id="day2-parallel1"><strong>Parallel Sessions I</strong><br><small>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers)</small></td>
+                  <td class="event-parallel clickable-cell" data-target-day="pane-day3" data-target-id="day3-parallel3"><strong>Parallel Sessions III</strong><br><small>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers)</small></td>
+                  <td class="event-parallel clickable-cell" data-target-day="pane-day4" data-target-id="day4-tour"><strong>School Visit</strong><br><small>Taoyuan IDC (13:00-16:00)</small></td>
+                </tr>
+                <tr>
+                  <td class="time-slot">14:30 - 15:00</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day1" data-target-id="day1-break1">Tea Break</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-break2">Tea Break</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-break2">Tea Break</td>
+                  <td class="empty-cell">-</td>
+                </tr>
+                <tr>
+                  <td class="time-slot">15:00 - 16:30</td>
+                  <td class="event-panel clickable-cell" data-target-day="pane-day1" data-target-id="day1-panel1"><strong>Panel Session 1</strong><br><small>Learner Well-being (Yu-Ju Lan)</small></td>
+                  <td class="event-parallel clickable-cell" data-target-day="pane-day2" data-target-id="day2-parallel2"><strong>Parallel Sessions II</strong><br><small>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers)</small></td>
+                  <td class="event-parallel clickable-cell" data-target-day="pane-day3" data-target-id="day3-posters"><strong>Poster & Online Session</strong><br><small>Socrates: Posters<br>Alexander: Online Session</small></td>
+                  <td class="event-parallel clickable-cell" data-target-day="pane-day4" data-target-id="day4-tour"><strong>School Visit (Cont.)</strong><br><small>Taoyuan IDC (安排中)</small></td>
+                </tr>
+                <tr>
+                  <td class="time-slot">16:30 - 18:00</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day1" data-target-id="day1-transition">Move to Reception Venue</td>
+                  <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-transition">Move to Banquet Venue</td>
+                  <td class="event-closing clickable-cell" data-target-day="pane-day3" data-target-id="day3-closing"><strong>Closing Ceremony</strong><br><small>Closing & Awards (16:30-17:30)</small></td>
+                  <td class="empty-cell">-</td>
+                </tr>
+                <tr>
+                  <td class="time-slot">18:00 - 21:00</td>
+                  <td class="event-reception clickable-cell" data-target-day="pane-day1" data-target-id="day1-welcome"><strong>Welcome Reception</strong><br><small>18:00 - 21:00</small></td>
+                  <td class="event-banquet clickable-cell" data-target-day="pane-day2" data-target-id="day2-banquet"><strong>Dinner Banquet</strong><br><small>18:00 - 21:00</small></td>
+                  <td class="empty-cell">-</td>
+                  <td class="empty-cell">-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Detailed Content Area -->
+      <main>
       
       <!-- Day 1 Pane -->
       <div id="pane-day1" class="tab-pane active" role="tabpanel" aria-labelledby="tab-day1">
@@ -779,34 +808,15 @@
       <!-- Day 4 Pane -->
       <div id="pane-day4" class="tab-pane" role="tabpanel" aria-labelledby="tab-day4">
         <p class="lead-text" style="text-align:left; margin-bottom:2rem; max-width:none;">
-          Day 4 features a school visit to the experimental education institution alongside an internal closed-door meeting.
-          (第四天安排學校參訪行程及主辦單位內部閉門會議。)
+          Day 4 features an internal closed-door meeting alongside a school visit to the experimental education institution.
+          (第四天安排主辦單位內部閉門會議及學校參訪行程。)
         </p>
         <div class="timeline">
-
-          <!-- School Visit -->
-          <div class="agenda-card" id="day4-tour">
-            <div class="time-column">
-              <span class="time-range">09:00 - 12:00</span>
-              <span class="duration-badge">3 hours</span>
-            </div>
-            <div class="content-column">
-              <div class="badge-row">
-                <span class="type-badge social" style="background: rgba(13, 148, 136, 0.15); color: #2dd4bf; border: 1px solid rgba(13, 148, 136, 0.3);">School Visit</span>
-              </div>
-              <h3 class="agenda-title">School Visit to Taoyuan IDC</h3>
-              <p class="agenda-description">
-                An academic visit to the <em>Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution</em> (桃園市趣創者(IDC)國際實驗教育機構參訪，全名為興趣驅動創造者). Pre-registration is required.
-                <br><br>
-                <span style="color: var(--accent); font-weight:600;">*(Under Arrangement / 安排中)*</span>
-              </p>
-            </div>
-          </div>
 
           <!-- Internal Closed-door Meeting -->
           <div class="agenda-card" id="day4-meeting">
             <div class="time-column">
-              <span class="time-range">13:30 - 15:30</span>
+              <span class="time-range">09:00 - 11:00</span>
               <span class="duration-badge">120 mins</span>
             </div>
             <div class="content-column">
@@ -822,9 +832,28 @@
             </div>
           </div>
 
+          <!-- School Visit -->
+          <div class="agenda-card" id="day4-tour">
+            <div class="time-column">
+              <span class="time-range">13:00 - 16:00</span>
+              <span class="duration-badge">3 hours</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge social" style="background: rgba(13, 148, 136, 0.15); color: #2dd4bf; border: 1px solid rgba(13, 148, 136, 0.3);">School Visit</span>
+              </div>
+              <h3 class="agenda-title">School Visit to Taoyuan IDC</h3>
+              <p class="agenda-description">
+                An academic visit to the <em>Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution</em> (桃園市趣創者(IDC)國際實驗教育機構參訪，全名為興趣驅動創造者). Pre-registration is required.
+                <br><br>
+                <span style="color: var(--accent); font-weight:600;">*(Under Arrangement / 安排中)*</span>
+              </p>
+            </div>
+          </div>
+
           <div class="agenda-card" id="day4-farewell">
             <div class="time-column">
-              <span class="time-range">15:30 ~</span>
+              <span class="time-range">16:00 ~</span>
               <span class="duration-badge">End</span>
             </div>
             <div class="content-column">
@@ -901,7 +930,8 @@
     </footer>
 
   </div>
+</div>
 
-  <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
