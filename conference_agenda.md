@@ -83,14 +83,14 @@ gantt
 | **11:30 - 13:00** | **Lunch** | | |
 | **13:00 - 14:30** | **Panel Session 2** <br>**Moderator:** Siu-Cheung Kong <br>**Topic:** *Do we need a Global Educational Goal?* <br>**Panelists:** Kinshuk, Ting-Chia HSU (許庭嘉), Ben Chang, Ivica Botički, Dean Olah | **Parallel Session I (Track A)** <br><ul><li>**Full Paper FP1.1:** TBA</li><li>**Full Paper FP1.2:** TBA</li><li>**Full Paper FP1.3:** TBA</li><li>**Full Paper FP1.4:** TBA</li></ul> | **Parallel Session I (Track B)** <br><ul><li>**Full Paper FP1.5:** TBA</li><li>**Full Paper FP1.6:** TBA</li><li>**Full Paper FP1.7:** TBA</li><li>**Full Paper FP1.8:** TBA</li></ul> |
 | **14:30 - 15:00** | **Tea Break** | | |
-| **15:00 - 16:30** | **Panel Session 3** <br>**Theme:** *Beyond Achievement: Wellbeing as an Educational Value* <br>**Moderator:** Prof. Ju-Ling Shih (施如齡) <br>**Panelists:** Prof. Weiqin Chen, 朱蕙君, 林珊如, 于富雲 <br>*(See below for detailed abstract & speakers)* | **Parallel Session II (Track A)** <br><ul><li>**Full Paper FP2.1:** TBA</li><li>**Full Paper FP2.2:** TBA</li><li>**Full Paper FP2.3:** TBA</li><li>**Full Paper FP2.4:** TBA</li></ul> | **Parallel Session II (Track B)** <br><ul><li>**Full Paper FP2.5:** TBA</li><li>**Practice Paper PP2.6:** TBA</li><li>**Practice Paper PP2.7:** TBA</li></ul> |
+| **15:00 - 16:30** | **Panel Session 3** <br>**Theme:** *Beyond Achievement: Wellbeing as an Educational Value* <br>**Moderator:** Prof. Ju-Ling Shih (施如齡) <br>**Panelists:** Prof. Weiqin Chen, 朱蕙君, 林珊如, 于富雲 <br>*(See below for detailed abstract & format)* | **Parallel Session II (Track A)** <br><ul><li>**Full Paper FP2.1:** TBA</li><li>**Full Paper FP2.2:** TBA</li><li>**Full Paper FP2.3:** TBA</li><li>**Full Paper FP2.4:** TBA</li></ul> | **Parallel Session II (Track B)** <br><ul><li>**Full Paper FP2.5:** TBA</li><li>**Practice Paper PP2.6:** TBA</li><li>**Practice Paper PP2.7:** TBA</li></ul> |
 | **16:30 - 18:00** | **Move to Banquet Venue (MRT)** | | |
 | **18:00 - 21:00** | **Dinner Banquet** | | |
 
 #### 📝 Panel Session 3 Detail: Beyond Achievement: Wellbeing as an Educational Value
 *   **Moderator:** Prof. Ju-Ling Shih (施如齡)
 *   **Panelists:**
-    *   **Prof. Weiqin Chen** (Professor, Department of Computer Science, OsloMet – Oslo Metropolitan University, Norway | Email: weiche@oslomet.no)
+    *   Prof. Weiqin Chen
     *   Prof. Hui-Chun Chu (朱蕙君)
     *   Prof. Shan-Ju Lin (林珊如)
     *   Prof. Fu-Yun Yu (于富雲)
