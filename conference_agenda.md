@@ -128,7 +128,7 @@ gantt
 | Time | Socrates Hall (145 capacity) | Alexander & Nietzsche Halls / Off-site |
 | :--- | :--- | :--- |
 | **09:00 - 10:00** | — | **Online Session** <br>*(Video Presentations & Virtual Q&A)* <br><ul><li>**Online Full Paper OP1.1:** TBA</li></ul> |
-| **09:00 - 15:00** | — | **Optional Social Program & School Visit** <br>*(Pre-registration Required)*<br>• **Option A:** Local Tour (Guided cultural/historic tour in Taipei/Taoyuan)<br>• **Option B:** School Visit to Taoyuan City Fun-Creator (IDC) International Experimental Education Institution (桃園市趣創者(idc)國際實驗教育機構參訪) *(Under Arrangement / 安排中)* |
+| **09:00 - 15:00** | — | **Optional Social Program & School Visit** <br>*(Pre-registration Required)*<br>• **Option A:** Local Tour (Guided cultural/historic tour in Taipei/Taoyuan)<br>• **Option B:** School Visit to Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution (桃園市趣創者(IDC)國際實驗教育機構參訪，全名為興趣驅動創造者) *(Under Arrangement / 安排中)* |
 | **15:00 ~** | — | **Farewell & Departures** |
 
 ---
