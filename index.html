@@ -65,35 +65,35 @@
                 <td class="empty-cell">-</td>
                 <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-registration">Registration</td>
                 <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-registration">Registration</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day4" data-target-id="day4-registration">Registration</td>
+                <td class="empty-cell">-</td>
               </tr>
               <tr>
                 <td class="time-slot">09:00 - 10:00</td>
                 <td class="empty-cell">-</td>
                 <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote1"><strong>Keynote Speech 1</strong><br><small>Prof. Davinia HERNÁNDEZ-LEO</small></td>
-                <td class="event-session clickable-cell" data-target-day="pane-day3" data-target-id="day3-online"><strong>Online Session</strong><br><small>Virtual Presentations (TBA)</small></td>
-                <td class="event-keynote clickable-cell" data-target-day="pane-day4" data-target-id="day4-keynote3"><strong>Keynote Speech 3</strong><br><small>Prof. Chee-Kit LOOI</small></td>
+                <td class="event-keynote clickable-cell" data-target-day="pane-day3" data-target-id="day3-keynote3"><strong>Keynote Speech 3</strong><br><small>Prof. Chee-Kit LOOI</small></td>
+                <td class="event-session clickable-cell" data-target-day="pane-day4" data-target-id="day4-online"><strong>Online Session</strong><br><small>Virtual Presentations (TBA)</small></td>
               </tr>
               <tr>
                 <td class="time-slot">10:00 - 10:30</td>
                 <td class="empty-cell">-</td>
                 <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-break1">Tea Break</td>
                 <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-break1">Tea Break</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day4" data-target-id="day4-break1">Tea Break</td>
+                <td class="empty-cell">-</td>
               </tr>
               <tr>
                 <td class="time-slot">10:30 - 12:00</td>
                 <td class="empty-cell">-</td>
                 <td class="event-keynote clickable-cell" data-target-day="pane-day2" data-target-id="day2-keynote2"><strong>Keynote Speech 2</strong><br><small>Prof. KINSHUK (10:30-11:30)</small><br><span class="event-break">Lunch (11:30-13:00)</span></td>
                 <td class="event-panel clickable-cell" data-target-day="pane-day3" data-target-id="day3-panel4"><strong>Panel Session 4 (Grand Panel)</strong><br><small>Harmony (Moderator: Tak-Wai Chan)</small></td>
-                <td class="event-closing clickable-cell" data-target-day="pane-day4" data-target-id="day4-closing"><strong>Closing Ceremony</strong><br><small>Closing & Awards (10:30-11:30)</small></td>
+                <td class="empty-cell">-</td>
               </tr>
               <tr>
                 <td class="time-slot">12:00 - 13:00</td>
                 <td class="empty-cell">-</td>
                 <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-lunch">Lunch</td>
                 <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-lunch">Lunch</td>
-                <td class="event-closing clickable-cell" data-target-day="pane-day4" data-target-id="day4-farewell">Farewell & Departure</td>
+                <td class="empty-cell">-</td>
               </tr>
               <tr>
                 <td class="time-slot">13:00 - 14:30</td>
@@ -120,7 +120,7 @@
                 <td class="time-slot">16:30 - 18:00</td>
                 <td class="event-break clickable-cell" data-target-day="pane-day1" data-target-id="day1-transition">Move to Reception Venue</td>
                 <td class="event-break clickable-cell" data-target-day="pane-day2" data-target-id="day2-transition">Move to Banquet Venue</td>
-                <td class="event-break clickable-cell" data-target-day="pane-day3" data-target-id="day3-free">Free Evening</td>
+                <td class="event-closing clickable-cell" data-target-day="pane-day3" data-target-id="day3-closing"><strong>Closing Ceremony</strong><br><small>Closing & Awards (16:30-17:30)</small></td>
                 <td class="empty-cell">-</td>
               </tr>
               <tr>
@@ -143,7 +143,7 @@
           <li role="presentation"><button id="tab-day1" class="tab-btn active" role="tab" aria-selected="true" aria-controls="pane-day1">Day 1 (Sept 21)</button></li>
           <li role="presentation"><button id="tab-day2" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day2">Day 2 (Sept 22)</button></li>
           <li role="presentation"><button id="tab-day3" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day3">Day 3 (Sept 23)</button></li>
-          <li role="presentation"><button id="tab-day4" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day4">Day 4 (Sept 24)</button></li>
+          <li role="presentation"><button id="tab-day4" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-day4">Day 4 (Sept 24 - Virtual)</button></li>
           <li role="presentation"><button id="tab-posters" class="tab-btn" role="tab" aria-selected="false" aria-controls="pane-posters">Posters List</button></li>
         </ul>
       </nav>
@@ -540,28 +540,18 @@
             </div>
           </div>
 
-          <!-- Online Session -->
-          <div class="agenda-card" id="day3-online">
+          <!-- Keynote 3 -->
+          <div class="agenda-card" id="day3-keynote3">
             <div class="time-column">
               <span class="time-range">09:00 - 10:00</span>
               <span class="duration-badge">60 mins</span>
             </div>
             <div class="content-column">
-              <div class="parallel-tracks-grid" style="grid-template-columns: 1fr;">
-                <div class="track-column" style="background: rgba(6,182,212,0.05); border-color: rgba(6,182,212,0.2);">
-                  <div class="track-header">Alexander & Nietzsche Halls <span class="room-badge">Online Streamed Track</span></div>
-                  <div class="badge-row"><span class="type-badge paper" style="background: rgba(6,182,212,0.15); color: #67e8f9; border: 1px solid rgba(6,182,212,0.3);">Online Session</span></div>
-                  <h4 class="track-title">Virtual Research Presentations</h4>
-                  <p class="track-desc">Expected virtual presentations by online authors.</p>
-                  <div class="papers-container">
-                    <div class="paper-item">
-                      <div class="paper-num">Online Full Paper OP1.1</div>
-                      <div class="paper-title">TBA</div>
-                      <div class="paper-author"></div>
-                    </div>
-                  </div>
-                </div>
+              <div class="badge-row">
+                <span class="type-badge keynote">Keynote 3</span>
               </div>
+              <h3 class="agenda-title">Keynote 3: Prof. Chee-Kit LOOI (EdUHK, Hong Kong)</h3>
+              <p class="agenda-description"><strong>Title:</strong> Translating Learning Sciences and AI to Educational Practice <br>A talk focused on computational thinking, mobile learning, and deploying learning sciences principles into actual school environments. *(Socrates Hall)*</p>
             </div>
           </div>
 
@@ -711,72 +701,10 @@
             </div>
           </div>
 
-          <div class="agenda-card" id="day3-free">
+          <!-- Closing Ceremony -->
+          <div class="agenda-card" id="day3-closing">
             <div class="time-column">
-              <span class="time-range">16:30 ~</span>
-              <span class="duration-badge">Free Time</span>
-            </div>
-            <div class="content-column">
-              <div class="badge-row">
-                <span class="type-badge break">Free Evening</span>
-              </div>
-              <h3 class="agenda-title">Free Evening</h3>
-              <p class="agenda-description">No official evening banquet scheduled. Enjoy a free night to explore restaurants and sites around Taipei.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Day 4 Pane -->
-      <div id="pane-day4" class="tab-pane" role="tabpanel" aria-labelledby="tab-day4">
-        <div class="timeline">
-
-          <div class="agenda-card" id="day4-registration">
-            <div class="time-column">
-              <span class="time-range">08:30 - 09:00</span>
-              <span class="duration-badge">30 mins</span>
-            </div>
-            <div class="content-column">
-              <div class="badge-row">
-                <span class="type-badge break">Coffee</span>
-              </div>
-              <h3 class="agenda-title">Morning Coffee</h3>
-              <p class="agenda-description">Morning check-in and coffee.</p>
-            </div>
-          </div>
-
-          <div class="agenda-card" id="day4-keynote3">
-            <div class="time-column">
-              <span class="time-range">09:00 - 10:00</span>
-              <span class="duration-badge">60 mins</span>
-            </div>
-            <div class="content-column">
-              <div class="badge-row">
-                <span class="type-badge keynote">Keynote 3</span>
-              </div>
-              <h3 class="agenda-title">Keynote 3: Prof. Chee-Kit LOOI (EdUHK, Hong Kong)</h3>
-              <p class="agenda-description"><strong>Title:</strong> Translating Learning Sciences and AI to Educational Practice <br>A talk focused on computational thinking, mobile learning, and deploying learning sciences principles into actual school environments. *(Socrates Hall)*</p>
-            </div>
-          </div>
-
-          <div class="agenda-card" id="day4-break1">
-            <div class="time-column">
-              <span class="time-range">10:00 - 10:30</span>
-              <span class="duration-badge">30 mins</span>
-            </div>
-            <div class="content-column">
-              <div class="badge-row">
-                <span class="type-badge break">Tea Break</span>
-              </div>
-              <h3 class="agenda-title">Tea Break</h3>
-              <p class="agenda-description">Break for checkout and poster dismantling.</p>
-            </div>
-          </div>
-
-          <div class="agenda-card" id="day4-closing">
-            <div class="time-column">
-              <span class="time-range">10:30 - 11:30</span>
+              <span class="time-range">16:30 - 17:30</span>
               <span class="duration-badge">60 mins</span>
             </div>
             <div class="content-column">
@@ -788,17 +716,67 @@
             </div>
           </div>
 
-          <div class="agenda-card" id="day4-farewell">
+          <div class="agenda-card" id="day3-farewell">
             <div class="time-column">
-              <span class="time-range">11:30 ~</span>
+              <span class="time-range">17:30 ~</span>
               <span class="duration-badge">Departures</span>
             </div>
             <div class="content-column">
               <div class="badge-row">
                 <span class="type-badge break">Farewell</span>
               </div>
-              <h3 class="agenda-title">Grab-and-Go Lunch & Departures</h3>
-              <p class="agenda-description">Pick up a box lunch on your way out. Shuttle buses leave for the airport starting at 12:00 PM.</p>
+              <h3 class="agenda-title">Grab-and-Go Dinner & Departures</h3>
+              <p class="agenda-description">Pick up a box meal on your way out. Physical conference concludes.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Day 4 Pane -->
+      <div id="pane-day4" class="tab-pane" role="tabpanel" aria-labelledby="tab-day4">
+        <p class="lead-text" style="text-align:left; margin-bottom:2rem; max-width:none;">
+          Day 4 features purely virtual and online sessions. There are no physical sessions held at the venue.
+          (第四天為純線上/虛擬議程，實體會場無活動。)
+        </p>
+        <div class="timeline">
+
+          <!-- Online Session -->
+          <div class="agenda-card" id="day4-online">
+            <div class="time-column">
+              <span class="time-range">09:00 - 10:00</span>
+              <span class="duration-badge">60 mins</span>
+            </div>
+            <div class="content-column">
+              <div class="parallel-tracks-grid" style="grid-template-columns: 1fr;">
+                <div class="track-column" style="background: rgba(6,182,212,0.05); border-color: rgba(6,182,212,0.2);">
+                  <div class="track-header">Alexander & Nietzsche Halls <span class="room-badge">Online Streamed Track</span></div>
+                  <div class="badge-row"><span class="type-badge paper" style="background: rgba(6,182,212,0.15); color: #67e8f9; border: 1px solid rgba(6,182,212,0.3);">Online Session</span></div>
+                  <h4 class="track-title">Virtual Research Presentations</h4>
+                  <p class="track-desc">Expected virtual presentations by online/remote authors.</p>
+                  <div class="papers-container">
+                    <div class="paper-item">
+                      <div class="paper-num">Online Full Paper OP1.1</div>
+                      <div class="paper-title">TBA</div>
+                      <div class="paper-author"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="agenda-card" id="day4-farewell">
+            <div class="time-column">
+              <span class="time-range">10:00 ~</span>
+              <span class="duration-badge">End</span>
+            </div>
+            <div class="content-column">
+              <div class="badge-row">
+                <span class="type-badge break">Farewell</span>
+              </div>
+              <h3 class="agenda-title">Virtual Farewell</h3>
+              <p class="agenda-description">Official conclusion of the virtual stream. Thank you for attending AIEH 2026!</p>
             </div>
           </div>
 

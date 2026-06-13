@@ -9,17 +9,17 @@
 
 ## 📋 Agenda At-A-Glance (議程一覽表)
 
-| Time | Day 1: Sept 21 (Mon.) | Day 2: Sept 22 (Tue.) | Day 3: Sept 23 (Wed.) | Day 4: Sept 24 (Thu.) |
+| Time | Day 1: Sept 21 (Mon.) | Day 2: Sept 22 (Tue.) | Day 3: Sept 23 (Wed.) | Day 4: Sept 24 (Thu.) [Virtual] |
 | :--- | :--- | :--- | :--- | :--- |
-| **08:30 - 09:00** | — | Registration | Registration | Registration |
-| **09:00 - 10:00** | — | **Keynote Speech 1**<br>Prof. Davinia HERNÁNDEZ-LEO | **Online Session**<br>Virtual Papers | **Keynote Speech 3**<br>Prof. Chee-Kit LOOI |
-| **10:00 - 10:30** | — | Tea Break | Tea Break | Tea Break |
-| **10:30 - 12:00** | — | **Keynote Speech 2**<br>Prof. KINSHUK (10:30-11:30)<br>_Lunch (11:30-13:00)_ | **Panel Session 4 (Grand Panel)**<br>Harmony (Moderator: Tak-Wai Chan) | **Closing Ceremony**<br>Closing & Awards (10:30-11:30) |
-| **12:00 - 13:00** | — | Lunch | Lunch | Farewell & Departure |
+| **08:30 - 09:00** | — | Registration | Registration | — |
+| **09:00 - 10:00** | — | **Keynote Speech 1**<br>Prof. Davinia HERNÁNDEZ-LEO | **Keynote Speech 3**<br>Prof. Chee-Kit LOOI | **Online Session**<br>Virtual Papers (TBA) |
+| **10:00 - 10:30** | — | Tea Break | Tea Break | — |
+| **10:30 - 12:00** | — | **Keynote Speech 2**<br>Prof. KINSHUK (10:30-11:30)<br>_Lunch (11:30-13:00)_ | **Panel Session 4 (Grand Panel)**<br>Harmony (Moderator: Tak-Wai Chan) | — |
+| **12:00 - 13:00** | — | Lunch | Lunch | — |
 | **13:00 - 14:30** | **Registration** (13:00-13:30)<br>**Opening Ceremony** (13:30-14:30) | **Parallel Sessions I**<br>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers) | **Parallel Sessions III**<br>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | — |
 | **14:30 - 15:00** | Tea Break | Tea Break | Tea Break | — |
 | **15:00 - 16:30** | **Panel Session 1**<br>Learner Well-being (Yu-Ju Lan) | **Parallel Sessions II**<br>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | **Poster Session**<br>Socrates Hall & Foyer (7 Posters) | — |
-| **16:30 - 18:00** | Move to Reception Venue | Move to Banquet Venue | Free Evening | — |
+| **16:30 - 18:00** | Move to Reception Venue | Move to Banquet Venue | **Closing Ceremony** (16:30-17:30)<br>Closing & Awards | — |
 | **18:00 - 21:00** | **Welcome Reception** (18:00-21:00) | **Dinner Banquet** (18:00-21:00) | — | — |
 
 ---
@@ -44,14 +44,14 @@ gantt
     Dinner Banquet            :active, d2_5, 2026-09-22 18:00, 2026-09-22 21:00
 
     section Day 3 (Sept 23)
-    Online Session            :active, d3_1, 2026-09-23 09:00, 2026-09-23 10:00
+    Keynote 3 (Chee-Kit Looi) :active, d3_1, 2026-09-23 09:00, 2026-09-23 10:00
     Panel 4 (Tak-Wai Chan)    :d3_2, 2026-09-23 10:30, 2026-09-23 12:00
     Parallel Sessions III     :d3_3, 2026-09-23 13:00, 2026-09-23 14:30
     Poster Session            :d3_4, 2026-09-23 15:00, 2026-09-23 16:30
+    Closing Ceremony & Awards :active, d3_5, 2026-09-23 16:30, 2026-09-23 17:30
 
-    section Day 4 (Sept 24)
-    Keynote 3 (Chee-Kit Looi) :active, d4_1, 2026-09-24 09:00, 2026-09-24 10:00
-    Closing Ceremony & Awards :d4_2, 2026-09-24 10:30, 2026-09-24 11:30
+    section Day 4 (Sept 24) [Virtual]
+    Online Session            :d4_1, 2026-09-24 09:00, 2026-09-24 10:00
 ```
 
 ---
@@ -88,31 +88,29 @@ gantt
 
 ---
 
-### Day 3: Wednesday, September 23 (Full Day & Poster Session)
+### Day 3: Wednesday, September 23 (Full Day, Poster Session & Closing)
 
 | Time | Socrates Hall (145 capacity) | Alexander Hall (54 capacity) | Nietzsche Hall (48 capacity) |
 | :--- | :--- | :--- | :--- |
 | **08:30 - 09:00** | **Registration** | | |
-| **09:00 - 10:00** | **Online Session** <br>*(Video Presentations & Virtual Q&A)* | <ul><li>**Online Full Paper OP1.1:** TBA</li></ul> | |
+| **09:00 - 10:00** | **Keynote Speech 3** <br>**Speaker:** Prof. Chee-Kit LOOI <br>*Translating Learning Sciences and AI to Educational Practice* | | |
 | **10:00 - 10:30** | **Tea Break** | | |
 | **10:30 - 12:00** | **Panel Session 4 (Grand Panel)** <br>**Moderator:** Tak-Wai Chan <br>**Topic:** *Harmony* <br>**Panelists:** Ying-Tien Wu, Hyo-Jeong So, Chee-Kit Looi, Davinia Hernández-Leo, Siu-Cheung Kong, 黃國禎 | | |
 | **12:00 - 13:00** | **Lunch** | | |
 | **13:00 - 14:30** | **Panel Session 5** <br>**Moderator:** Ivica Botički <br>**Topic:** *How does AI contribute to Global Harwell?* <br>**Panelists:** Yin Yang, Chang-Yen Liao, 劉晨鐘, 楊接期 | **Parallel Session III (Track A)** <br><ul><li>**Short Paper SP3.1:** TBA</li><li>**Short Paper SP3.2:** TBA</li><li>**Short Paper SP3.3:** TBA</li><li>**Short Paper SP3.4:** TBA</li></ul> | **Parallel Session III (Track B)** <br><ul><li>**Short Paper SP3.5:** TBA</li><li>**Short Paper SP3.6:** TBA</li><li>**Short Paper SP3.7:** TBA</li></ul> |
 | **14:30 - 15:00** | **Tea Break** | | |
 | **15:00 - 16:30** | **Poster Session** <br>**Venue:** Socrates Hall & Foyer <br>*(7 Posters Displayed, Interactive Q&A)* | | |
-| **16:30 ~** | **Free Evening** | | |
+| **16:30 - 17:30** | **Closing Ceremony & Awards** | | |
+| **17:30 ~** | **Farewell & Departures** | | |
 
 ---
 
-### Day 4: Thursday, September 24 (Morning - Ends before Noon)
+### Day 4: Thursday, September 24 (Virtual Sessions - Purely Online)
 
-| Time | Socrates Hall (145 capacity) | Alexander & Nietzsche Halls |
+| Time | Socrates Hall (145 capacity) | Alexander & Nietzsche Halls [Virtual Stream] |
 | :--- | :--- | :--- |
-| **08:30 - 09:00** | **Registration** | |
-| **09:00 - 10:00** | **Keynote Speech 3** <br>**Speaker:** Prof. Chee-Kit LOOI <br>*Translating Learning Sciences and AI to Educational Practice* | |
-| **10:00 - 10:30** | **Tea Break** | |
-| **10:30 - 11:30** | **Closing Ceremony & Awards** | |
-| **11:30 ~** | **Farewell & Departures** | |
+| **09:00 - 10:00** | — | **Online Session** <br>*(Video Presentations & Virtual Q&A)* <br><ul><li>**Online Full Paper OP1.1:** TBA</li></ul> |
+| **10:00 ~** | — | **Virtual Farewell & Departures** |
 
 ---
 
