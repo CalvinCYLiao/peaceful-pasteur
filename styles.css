@@ -386,16 +386,16 @@ h1 {
 }
 
 /* Event types colors inside overview table */
-.event-keynote { background: rgba(30, 58, 138, 0.02); border-left: 3px solid var(--primary); }
-.event-panel { background: rgba(13, 148, 136, 0.02); border-left: 3px solid var(--secondary); }
-.event-session { background: rgba(2, 132, 199, 0.02); border-left: 3px solid var(--info); }
-.event-parallel { background: rgba(99, 102, 241, 0.02); border-left: 3px solid #6366f1; }
-.event-poster { background: rgba(244, 63, 94, 0.02); border-left: 3px solid var(--accent); }
-.event-break { color: var(--text-muted); background: rgba(241, 245, 249, 0.2); }
-.event-opening { background: rgba(15, 23, 42, 0.01); }
-.event-closing { background: rgba(15, 23, 42, 0.02); border-left: 3px solid var(--text-muted); }
-.event-reception { background: rgba(219, 39, 119, 0.02); border-left: 3px solid #db2777; }
-.event-banquet { background: rgba(99, 102, 241, 0.02); border-left: 3px solid var(--primary); }
+.event-keynote { background: rgba(30, 58, 138, 0.08); border-left: 4px solid var(--primary); }
+.event-panel { background: rgba(13, 148, 136, 0.08); border-left: 4px solid var(--secondary); }
+.event-session { background: rgba(2, 132, 199, 0.08); border-left: 4px solid var(--info); }
+.event-parallel { background: rgba(99, 102, 241, 0.08); border-left: 4px solid #6366f1; }
+.event-poster { background: rgba(244, 63, 94, 0.08); border-left: 4px solid var(--accent); }
+.event-break { color: var(--text-muted); background: rgba(226, 232, 240, 0.5); border-left: 4px solid #94a3b8; }
+.event-opening { background: rgba(15, 23, 42, 0.05); border-left: 4px solid #475569; }
+.event-closing { background: rgba(15, 23, 42, 0.08); border-left: 4px solid var(--text-muted); }
+.event-reception { background: rgba(219, 39, 119, 0.08); border-left: 4px solid #db2777; }
+.event-banquet { background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--primary); }
 
 /* Dashboard Metrics */
 .dashboard-grid {
@@ -581,59 +581,59 @@ h1 {
 
 /* 1. Keynotes (Navy Blue) */
 .agenda-card:has(.type-badge.keynote) {
-  border-left: 5px solid var(--primary);
-  background: linear-gradient(to right, rgba(30, 58, 138, 0.02), var(--bg-card));
+  border-left: 6px solid var(--primary);
+  background: linear-gradient(to right, rgba(30, 58, 138, 0.06) 0%, var(--bg-card) 20%);
 }
 .agenda-card:has(.type-badge.keynote):hover {
-  background: linear-gradient(to right, rgba(30, 58, 138, 0.04), var(--bg-card));
+  background: linear-gradient(to right, rgba(30, 58, 138, 0.1) 0%, var(--bg-card) 25%);
   border-color: var(--primary);
-  box-shadow: 0 10px 15px -3px rgba(30, 58, 138, 0.08), 0 4px 6px -4px rgba(30, 58, 138, 0.08);
+  box-shadow: 0 10px 15px -3px rgba(30, 58, 138, 0.12), 0 4px 6px -4px rgba(30, 58, 138, 0.12);
 }
 
 /* 2. Panels (Teal) */
 .agenda-card:has(.type-badge.panel) {
-  border-left: 5px solid var(--secondary);
-  background: linear-gradient(to right, rgba(13, 148, 136, 0.02), var(--bg-card));
+  border-left: 6px solid var(--secondary);
+  background: linear-gradient(to right, rgba(13, 148, 136, 0.06) 0%, var(--bg-card) 20%);
 }
 .agenda-card:has(.type-badge.panel):hover {
-  background: linear-gradient(to right, rgba(13, 148, 136, 0.04), var(--bg-card));
+  background: linear-gradient(to right, rgba(13, 148, 136, 0.1) 0%, var(--bg-card) 25%);
   border-color: var(--secondary);
-  box-shadow: 0 10px 15px -3px rgba(13, 148, 136, 0.08), 0 4px 6px -4px rgba(13, 148, 136, 0.08);
+  box-shadow: 0 10px 15px -3px rgba(13, 148, 136, 0.12), 0 4px 6px -4px rgba(13, 148, 136, 0.12);
 }
 
 /* 3. Paper / Parallel Sessions (Indigo) */
 .agenda-card:has(.parallel-tracks-grid),
 .agenda-card:has(.type-badge.paper) {
-  border-left: 5px solid #6366f1;
-  background: linear-gradient(to right, rgba(99, 102, 241, 0.02), var(--bg-card));
+  border-left: 6px solid #6366f1;
+  background: linear-gradient(to right, rgba(99, 102, 241, 0.06) 0%, var(--bg-card) 20%);
 }
 .agenda-card:has(.parallel-tracks-grid):hover,
 .agenda-card:has(.type-badge.paper):hover {
-  background: linear-gradient(to right, rgba(99, 102, 241, 0.04), var(--bg-card));
+  background: linear-gradient(to right, rgba(99, 102, 241, 0.1) 0%, var(--bg-card) 25%);
   border-color: #6366f1;
-  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.08), 0 4px 6px -4px rgba(99, 102, 241, 0.08);
+  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.12), 0 4px 6px -4px rgba(99, 102, 241, 0.12);
 }
 
 /* 4. Social Events / Ceremonies / Visits (Pink / Rose) */
 .agenda-card:has(.type-badge.social) {
-  border-left: 5px solid #db2777;
-  background: linear-gradient(to right, rgba(219, 39, 119, 0.02), var(--bg-card));
+  border-left: 6px solid #db2777;
+  background: linear-gradient(to right, rgba(219, 39, 119, 0.06) 0%, var(--bg-card) 20%);
 }
 .agenda-card:has(.type-badge.social):hover {
-  background: linear-gradient(to right, rgba(219, 39, 119, 0.04), var(--bg-card));
+  background: linear-gradient(to right, rgba(219, 39, 119, 0.1) 0%, var(--bg-card) 25%);
   border-color: #db2777;
-  box-shadow: 0 10px 15px -3px rgba(219, 39, 119, 0.08), 0 4px 6px -4px rgba(219, 39, 119, 0.08);
+  box-shadow: 0 10px 15px -3px rgba(219, 39, 119, 0.12), 0 4px 6px -4px rgba(219, 39, 119, 0.12);
 }
 
 /* 5. Breaks / Transitions / Registration / Farewell (Amber / Gold) */
 .agenda-card:has(.type-badge.break) {
-  border-left: 5px solid var(--accent);
-  background: linear-gradient(to right, rgba(180, 83, 9, 0.02), var(--bg-card));
+  border-left: 6px solid var(--accent);
+  background: linear-gradient(to right, rgba(180, 83, 9, 0.05) 0%, var(--bg-card) 20%);
 }
 .agenda-card:has(.type-badge.break):hover {
-  background: linear-gradient(to right, rgba(180, 83, 9, 0.04), var(--bg-card));
+  background: linear-gradient(to right, rgba(180, 83, 9, 0.09) 0%, var(--bg-card) 25%);
   border-color: var(--accent);
-  box-shadow: 0 10px 15px -3px rgba(180, 83, 9, 0.08), 0 4px 6px -4px rgba(180, 83, 9, 0.08);
+  box-shadow: 0 10px 15px -3px rgba(180, 83, 9, 0.12), 0 4px 6px -4px rgba(180, 83, 9, 0.12);
 }
 
 .time-column {
