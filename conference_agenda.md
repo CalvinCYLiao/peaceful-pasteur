@@ -1,13 +1,13 @@
 # AIEH 2026 Conference Agenda (Proposal 1)
 ### The 1st International Conference on AI, Future Educational Scenarios and Transformations, and Global Harwell
 **September 21 - September 24, 2026 | Taipei, Taiwan**
-**Venue:** Geographic Center (集思台大會議中心)
-- **Socrates Hall (蘇格拉底廳):** Plenary Sessions & Panels (145 capacity)
-- **Alexander Hall (亞歷山大廳):** Parallel Track A (54 capacity)
-- **Nietzsche Hall (尼采廳):** Parallel Track B (48 capacity)
+**Venue:** GIS NTU Convention Center
+- **Socrates Hall:** Plenary Sessions & Panels (145 capacity)
+- **Alexander Hall:** Parallel Track A (54 capacity)
+- **Nietzsche Hall:** Parallel Track B (48 capacity)
 ---
 
-## 📋 Agenda At-A-Glance (議程一覽表)
+## 📋 Agenda At-A-Glance
 
 | Time | Day 1: Sept 21 (Mon.) | Day 2: Sept 22 (Tue.) | Day 3: Sept 23 (Wed.) | Day 4: Sept 24 (Thu.) [Meeting & Visit] |
 | :--- | :--- | :--- | :--- | :--- |
@@ -18,7 +18,7 @@
 | **12:00 - 13:00** | — | Lunch | Lunch | — |
 | **13:00 - 14:30** | **Registration** (13:00-13:30)<br>**Opening Ceremony** (13:30-14:30) | **Parallel Sessions I**<br>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers) | **Parallel Sessions III**<br>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | **School Visit**<br>Taoyuan IDC (13:00-16:00) |
 | **14:30 - 15:00** | Tea Break | Tea Break | Tea Break | — |
-| **15:00 - 16:30** | **Panel Session 1**<br>Learner Well-being (Yu-Ju Lan) | **Parallel Sessions II**<br>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | **Poster & Online Session**<br>Socrates: Posters (7)<br>Alexander: Online Session | **School Visit (Cont.)**<br>Taoyuan IDC (安排中) |
+| **15:00 - 16:30** | **Panel Session 1**<br>Learner Well-being (Yu-Ju Lan) | **Parallel Sessions II**<br>Socrates: Panel 3<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | **Poster & Online Session**<br>Socrates: Posters (7)<br>Alexander: Online Session | **School Visit (Cont.)**<br>Taoyuan IDC (Under Arrangement) |
 | **16:30 - 18:00** | Move to Reception Venue | Move to Banquet Venue | **Closing Ceremony** (16:30-17:30)<br>Closing & Awards | — |
 | **18:00 - 21:00** | **Welcome Reception** (18:00-21:00) | **Dinner Banquet** (18:00-21:00) | — | — |
 
@@ -81,19 +81,19 @@ gantt
 | **10:00 - 10:30** | **Tea Break** | | |
 | **10:30 - 11:30** | **Keynote Speech 2** <br>**Speaker:** Prof. KINSHUK <br>*Adaptivity and Personalization in Learning* | | |
 | **11:30 - 13:00** | **Lunch** | | |
-| **13:00 - 14:30** | **Panel Session 2** <br>**Moderator:** Siu-Cheung Kong <br>**Topic:** *Do we need a Global Educational Goal?* <br>**Panelists:** Kinshuk, Ting-Chia HSU (許庭嘉), Ben Chang, Ivica Botički, Dean Olah | **Parallel Session I (Track A)** <br><ul><li>**Full Paper FP1.1:** TBA</li><li>**Full Paper FP1.2:** TBA</li><li>**Full Paper FP1.3:** TBA</li><li>**Full Paper FP1.4:** TBA</li></ul> | **Parallel Session I (Track B)** <br><ul><li>**Full Paper FP1.5:** TBA</li><li>**Full Paper FP1.6:** TBA</li><li>**Full Paper FP1.7:** TBA</li><li>**Full Paper FP1.8:** TBA</li></ul> |
+| **13:00 - 14:30** | **Panel Session 2** <br>**Moderator:** Siu-Cheung Kong <br>**Topic:** *Do we need a Global Educational Goal?* <br>**Panelists:** Kinshuk, Ting-Chia HSU, Ben Chang, Ivica Botički, Dean Olah | **Parallel Session I (Track A)** <br><ul><li>**Full Paper FP1.1:** TBA</li><li>**Full Paper FP1.2:** TBA</li><li>**Full Paper FP1.3:** TBA</li><li>**Full Paper FP1.4:** TBA</li></ul> | **Parallel Session I (Track B)** <br><ul><li>**Full Paper FP1.5:** TBA</li><li>**Full Paper FP1.6:** TBA</li><li>**Full Paper FP1.7:** TBA</li><li>**Full Paper FP1.8:** TBA</li></ul> |
 | **14:30 - 15:00** | **Tea Break** | | |
-| **15:00 - 16:30** | **Panel Session 3** <br>**Theme:** *Beyond Achievement: Wellbeing as an Educational Value* <br>**Moderator:** Prof. Ju-Ling Shih (施如齡) <br>**Panelists:** Prof. Weiqin Chen, 朱蕙君, 林珊如, 于富雲 <br>*(See below for detailed abstract & format)* | **Parallel Session II (Track A)** <br><ul><li>**Full Paper FP2.1:** TBA</li><li>**Full Paper FP2.2:** TBA</li><li>**Full Paper FP2.3:** TBA</li><li>**Full Paper FP2.4:** TBA</li></ul> | **Parallel Session II (Track B)** <br><ul><li>**Full Paper FP2.5:** TBA</li><li>**Practice Paper PP2.6:** TBA</li><li>**Practice Paper PP2.7:** TBA</li></ul> |
+| **15:00 - 16:30** | **Panel Session 3** <br>**Theme:** *Beyond Achievement: Wellbeing as an Educational Value* <br>**Moderator:** Prof. Ju-Ling Shih <br>**Panelists:** Prof. Weiqin Chen, Prof. Hui-Chun Chu, Prof. Shan-Ju Lin, Prof. Fu-Yun Yu <br>*(See below for detailed abstract & format)* | **Parallel Session II (Track A)** <br><ul><li>**Full Paper FP2.1:** TBA</li><li>**Full Paper FP2.2:** TBA</li><li>**Full Paper FP2.3:** TBA</li><li>**Full Paper FP2.4:** TBA</li></ul> | **Parallel Session II (Track B)** <br><ul><li>**Full Paper FP2.5:** TBA</li><li>**Practice Paper PP2.6:** TBA</li><li>**Practice Paper PP2.7:** TBA</li></ul> |
 | **16:30 - 18:00** | **Move to Banquet Venue (MRT)** | | |
 | **18:00 - 21:00** | **Dinner Banquet** | | |
 
 #### 📝 Panel Session 3 Detail: Beyond Achievement: Wellbeing as an Educational Value
-*   **Moderator:** Prof. Ju-Ling Shih (施如齡)
+*   **Moderator:** Prof. Ju-Ling Shih
 *   **Panelists:**
     *   Prof. Weiqin Chen
-    *   Prof. Hui-Chun Chu (朱蕙君)
-    *   Prof. Shan-Ju Lin (林珊如)
-    *   Prof. Fu-Yun Yu (于富雲)
+    *   Prof. Hui-Chun Chu
+    *   Prof. Shan-Ju Lin
+    *   Prof. Fu-Yun Yu
 *   **Abstract:**
     Across the world, educational systems are increasingly recognizing that the purpose of education extends beyond academic achievement and workforce preparation. As learners navigate a rapidly changing world shaped by artificial intelligence, social transformation, uncertainty, and growing mental health challenges, wellbeing has become a fundamental educational concern.
     
@@ -113,9 +113,9 @@ gantt
 | **08:30 - 09:00** | **Registration** | | |
 | **09:00 - 10:00** | **Keynote Speech 3** <br>**Speaker:** Prof. Chee-Kit LOOI <br>*Translating Learning Sciences and AI to Educational Practice* | | |
 | **10:00 - 10:30** | **Tea Break** | | |
-| **10:30 - 12:00** | **Panel Session 4 (Grand Panel)** <br>**Moderator:** Tak-Wai Chan <br>**Topic:** *Harmony* <br>**Panelists:** Ying-Tien Wu, Hyo-Jeong So, Chee-Kit Looi, Davinia Hernández-Leo, Siu-Cheung Kong, 黃國禎 | | |
+| **10:30 - 12:00** | **Panel Session 4 (Grand Panel)** <br>**Moderator:** Tak-Wai Chan <br>**Topic:** *Harmony* <br>**Panelists:** Ying-Tien Wu, Hyo-Jeong So, Chee-Kit Looi, Davinia Hernández-Leo, Siu-Cheung Kong, Gwo-Jen Hwang | | |
 | **12:00 - 13:00** | **Lunch** | | |
-| **13:00 - 14:30** | **Panel Session 5** <br>**Moderator:** Ivica Botički <br>**Topic:** *How does AI contribute to Global Harwell?* <br>**Panelists:** Yin Yang, Chang-Yen Liao, 劉晨鐘, 楊接期 | **Parallel Session III (Track A)** <br><ul><li>**Short Paper SP3.1:** TBA</li><li>**Short Paper SP3.2:** TBA</li><li>**Short Paper SP3.3:** TBA</li><li>**Short Paper SP3.4:** TBA</li></ul> | **Parallel Session III (Track B)** <br><ul><li>**Short Paper SP3.5:** TBA</li><li>**Short Paper SP3.6:** TBA</li><li>**Short Paper SP3.7:** TBA</li></ul> |
+| **13:00 - 14:30** | **Panel Session 5** <br>**Moderator:** Ivica Botički <br>**Topic:** *How does AI contribute to Global Harwell?* <br>**Panelists:** Yin Yang, Chang-Yen Liao, Chen-Chung Liu, Chieh-Chi Yang | **Parallel Session III (Track A)** <br><ul><li>**Short Paper SP3.1:** TBA</li><li>**Short Paper SP3.2:** TBA</li><li>**Short Paper SP3.3:** TBA</li><li>**Short Paper SP3.4:** TBA</li></ul> | **Parallel Session III (Track B)** <br><ul><li>**Short Paper SP3.5:** TBA</li><li>**Short Paper SP3.6:** TBA</li><li>**Short Paper SP3.7:** TBA</li></ul> |
 | **14:30 - 15:00** | **Tea Break** | | |
 | **15:00 - 16:30** | **Poster Session** <br>**Venue:** Socrates Hall & Foyer <br>*(7 Posters Displayed, Interactive Q&A)* | **Online Session** <br>*(Video Presentations & Virtual Q&A)* <br><ul><li>**Online Full Paper OP1.1:** TBA</li></ul> | — |
 | **16:30 - 17:30** | **Closing Ceremony & Awards** | | |
@@ -127,8 +127,8 @@ gantt
 
 | Time | Activity / Room | Details |
 | :--- | :--- | :--- |
-| **09:00 - 11:00** | **Internal Closed-door Meeting** | Steering assembly, project committee review, and future planning meeting for organizers and committee members.<br>*(主辦與大會委員內部閉門會議)* |
-| **13:00 - 16:00** | **School Visit to Taoyuan IDC** | Academic visit to the *Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution* (桃園市趣創者(IDC)國際實驗教育機構參訪，全名為興趣驅動創造者). Pre-registration required.<br>*(Under Arrangement / 安排中)* |
+| **09:00 - 11:00** | **Internal Closed-door Meeting** | Steering assembly, project committee review, and future planning meeting for organizers and committee members. |
+| **13:00 - 16:00** | **School Visit to Taoyuan IDC** | Academic visit to the *Taoyuan City Interest-Driven Creator (IDC) International Experimental Education Institution*. Pre-registration required.<br>*(Under Arrangement)* |
 | **16:00 ~** | **Farewell & Departures** | Official conclusion of the conference program. Thank you for attending AIEH 2026! |
 
 ---
