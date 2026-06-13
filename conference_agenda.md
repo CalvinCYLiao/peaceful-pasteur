@@ -9,12 +9,12 @@
 
 ## 📋 Agenda At-A-Glance (議程一覽表)
 
-| Time | Day 1: Sept 21 (Mon.) | Day 2: Sept 22 (Tue.) | Day 3: Sept 23 (Wed.) | Day 4: Sept 24 (Thu.) [Virtual] |
+| Time | Day 1: Sept 21 (Mon.) | Day 2: Sept 22 (Tue.) | Day 3: Sept 23 (Wed.) | Day 4: Sept 24 (Thu.) [Virtual & Tour] |
 | :--- | :--- | :--- | :--- | :--- |
 | **08:30 - 09:00** | — | Registration | Registration | — |
 | **09:00 - 10:00** | — | **Keynote Speech 1**<br>Prof. Davinia HERNÁNDEZ-LEO | **Keynote Speech 3**<br>Prof. Chee-Kit LOOI | **Online Session**<br>Virtual Papers (TBA) |
 | **10:00 - 10:30** | — | Tea Break | Tea Break | — |
-| **10:30 - 12:00** | — | **Keynote Speech 2**<br>Prof. KINSHUK (10:30-11:30)<br>_Lunch (11:30-13:00)_ | **Panel Session 4 (Grand Panel)**<br>Harmony (Moderator: Tak-Wai Chan) | — |
+| **10:30 - 12:00** | — | **Keynote Speech 2**<br>Prof. KINSHUK (10:30-11:30)<br>_Lunch (11:30-13:00)_ | **Panel Session 4 (Grand Panel)**<br>Harmony (Moderator: Tak-Wai Chan) | **Optional Tour / Visit**<br>Local Tour or IDC Visit (安排中) |
 | **12:00 - 13:00** | — | Lunch | Lunch | — |
 | **13:00 - 14:30** | **Registration** (13:00-13:30)<br>**Opening Ceremony** (13:30-14:30) | **Parallel Sessions I**<br>Socrates: Panel 2<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (4 Papers) | **Parallel Sessions III**<br>Socrates: Panel 5<br>Alexander: Track A (4 Papers)<br>Nietzsche: Track B (3 Papers) | — |
 | **14:30 - 15:00** | Tea Break | Tea Break | Tea Break | — |
@@ -50,8 +50,9 @@ gantt
     Poster Session            :d3_4, 2026-09-23 15:00, 2026-09-23 16:30
     Closing Ceremony & Awards :active, d3_5, 2026-09-23 16:30, 2026-09-23 17:30
 
-    section Day 4 (Sept 24) [Virtual]
+    section Day 4 (Sept 24) [Virtual & Tour]
     Online Session            :d4_1, 2026-09-24 09:00, 2026-09-24 10:00
+    Optional Tour / Visit     :d4_2, 2026-09-24 09:00, 2026-09-24 15:00
 ```
 
 ---
@@ -105,12 +106,13 @@ gantt
 
 ---
 
-### Day 4: Thursday, September 24 (Virtual Sessions - Purely Online)
+### Day 4: Thursday, September 24 (Virtual Sessions & Optional Tour)
 
-| Time | Socrates Hall (145 capacity) | Alexander & Nietzsche Halls [Virtual Stream] |
+| Time | Socrates Hall (145 capacity) | Alexander & Nietzsche Halls / Off-site |
 | :--- | :--- | :--- |
 | **09:00 - 10:00** | — | **Online Session** <br>*(Video Presentations & Virtual Q&A)* <br><ul><li>**Online Full Paper OP1.1:** TBA</li></ul> |
-| **10:00 ~** | — | **Virtual Farewell & Departures** |
+| **09:00 - 15:00** | — | **Optional Social Program & School Visit** <br>*(Pre-registration Required)*<br>• **Option A:** Local Tour (Guided cultural/historic tour in Taipei/Taoyuan)<br>• **Option B:** School Visit to Taoyuan City Fun-Creator (IDC) International Experimental Education Institution (桃園市趣創者(idc)國際實驗教育機構參訪) *(Under Arrangement / 安排中)* |
+| **15:00 ~** | — | **Farewell & Departures** |
 
 ---
 
