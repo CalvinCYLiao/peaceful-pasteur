@@ -574,6 +574,66 @@ h1 {
 .agenda-card:hover {
   border-color: var(--primary);
   box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Color blocks and left border highlights for different activity types on cards */
+
+/* 1. Keynotes (Navy Blue) */
+.agenda-card:has(.type-badge.keynote) {
+  border-left: 5px solid var(--primary);
+  background: linear-gradient(to right, rgba(30, 58, 138, 0.02), var(--bg-card));
+}
+.agenda-card:has(.type-badge.keynote):hover {
+  background: linear-gradient(to right, rgba(30, 58, 138, 0.04), var(--bg-card));
+  border-color: var(--primary);
+  box-shadow: 0 10px 15px -3px rgba(30, 58, 138, 0.08), 0 4px 6px -4px rgba(30, 58, 138, 0.08);
+}
+
+/* 2. Panels (Teal) */
+.agenda-card:has(.type-badge.panel) {
+  border-left: 5px solid var(--secondary);
+  background: linear-gradient(to right, rgba(13, 148, 136, 0.02), var(--bg-card));
+}
+.agenda-card:has(.type-badge.panel):hover {
+  background: linear-gradient(to right, rgba(13, 148, 136, 0.04), var(--bg-card));
+  border-color: var(--secondary);
+  box-shadow: 0 10px 15px -3px rgba(13, 148, 136, 0.08), 0 4px 6px -4px rgba(13, 148, 136, 0.08);
+}
+
+/* 3. Paper / Parallel Sessions (Indigo) */
+.agenda-card:has(.parallel-tracks-grid),
+.agenda-card:has(.type-badge.paper) {
+  border-left: 5px solid #6366f1;
+  background: linear-gradient(to right, rgba(99, 102, 241, 0.02), var(--bg-card));
+}
+.agenda-card:has(.parallel-tracks-grid):hover,
+.agenda-card:has(.type-badge.paper):hover {
+  background: linear-gradient(to right, rgba(99, 102, 241, 0.04), var(--bg-card));
+  border-color: #6366f1;
+  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.08), 0 4px 6px -4px rgba(99, 102, 241, 0.08);
+}
+
+/* 4. Social Events / Ceremonies / Visits (Pink / Rose) */
+.agenda-card:has(.type-badge.social) {
+  border-left: 5px solid #db2777;
+  background: linear-gradient(to right, rgba(219, 39, 119, 0.02), var(--bg-card));
+}
+.agenda-card:has(.type-badge.social):hover {
+  background: linear-gradient(to right, rgba(219, 39, 119, 0.04), var(--bg-card));
+  border-color: #db2777;
+  box-shadow: 0 10px 15px -3px rgba(219, 39, 119, 0.08), 0 4px 6px -4px rgba(219, 39, 119, 0.08);
+}
+
+/* 5. Breaks / Transitions / Registration / Farewell (Amber / Gold) */
+.agenda-card:has(.type-badge.break) {
+  border-left: 5px solid var(--accent);
+  background: linear-gradient(to right, rgba(180, 83, 9, 0.02), var(--bg-card));
+}
+.agenda-card:has(.type-badge.break):hover {
+  background: linear-gradient(to right, rgba(180, 83, 9, 0.04), var(--bg-card));
+  border-color: var(--accent);
+  box-shadow: 0 10px 15px -3px rgba(180, 83, 9, 0.08), 0 4px 6px -4px rgba(180, 83, 9, 0.08);
 }
 
 .time-column {
@@ -679,6 +739,17 @@ h1 {
   box-shadow: var(--shadow-sm);
 }
 
+.track-column.online-track {
+  background: rgba(6, 182, 212, 0.02);
+  border-color: rgba(6, 182, 212, 0.15);
+}
+
+.track-column.online-track:hover {
+  background: rgba(6, 182, 212, 0.04);
+  border-color: rgba(6, 182, 212, 0.3);
+  box-shadow: var(--shadow-sm);
+}
+
 .track-header {
   font-family: var(--font-heading);
   font-size: 0.8rem;
@@ -780,6 +851,7 @@ h1 {
 .poster-card {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
+  border-left: 4px solid var(--accent);
   border-radius: var(--radius-md);
   padding: 1.5rem;
   transition: all var(--transition-normal);
@@ -791,8 +863,8 @@ h1 {
 }
 
 .poster-card:hover {
-  border-color: var(--primary);
-  box-shadow: var(--shadow-md);
+  border-color: var(--accent);
+  box-shadow: 0 10px 15px -3px rgba(180, 83, 9, 0.08), 0 4px 6px -4px rgba(180, 83, 9, 0.08);
   transform: translateY(-3px);
 }
 
